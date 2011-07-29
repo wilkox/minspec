@@ -78,3 +78,42 @@ until (keys(%assemblage) == 300) {
 	$assemblage{$taxon} = "";
 	print "\n$taxon is part of the assemblage";
 }
+
+####
+## 3 - simulate a blast of the "assemblage" metagenome against the database of "taxa". to simulate sequence identity between genomes, some "reads" will (at random) have identity to both their true "taxon" and one (or more) "taxa" related to their true "taxon". we will assume that appropriately stringent identity and E-value thresholds have been set on the blast. this blast output will thus represent the common metagenomic situation which minspec is intended to help resolve, where there are high-scoring hits to organisms which are not actually present in the sample, but which have identity to organisms actually in the sample
+
+print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage against the database of taxa\n";
+
+#open the "blast output"
+die unless open(OUT, ">../blast_output/validation.blast_output");
+
+#"blast" 100000 "reads"
+
+my @assemblage = keys(%assemblage); #for random picking
+my $read = 0; #initial read ID
+my $blastline = "100	500	0	0	1	500	1	500	0	500"; #this is the rest of the blast output line - not actually important for minspec but will be added to each line for completeness
+
+until ($read == 100000) {
+
+	print "\rread $read of 100000";
+
+	#randomly select a taxon from the assemblage
+	my $taxon = @assemblage[int(rand(@assemblage))];
+
+	#produce a hit to that taxon
+	print OUT "read$read\t$taxon\t$blastline\n";
+
+	#with a 40% chance on each iteration, also produce hits to other related taxa
+	#by shifting off one end of the list instead of picking randomly, 
+	#we simulate closer and more distant relationships
+	my @relatives = keys(%{$relativesOf{$taxon}}); #for random picking
+	until (@relatives == 0) {
+		last if rand() > 0.40;
+		my $otherTaxon = shift(@relatives);
+		print OUT "read$read\t$otherTaxon\t$blastline\n";
+	}
+
+	++$read;
+}
+
+close OUT;
