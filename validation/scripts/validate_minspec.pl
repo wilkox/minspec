@@ -105,9 +105,6 @@ until ($read == 100000) {
 	#randomly select a taxon from the assemblage
 	my $taxon = @assemblage[int(rand(@assemblage))];
 
-	#produce a hit to that taxon
-	print OUT "read$read\t$taxon\t$blastline\n";
-
 	#with a 80% chance on each iteration, also produce hits to other related taxa.
 	#by shifting off one end of the list instead of picking randomly, 
 	#we simulate a curve of relationship distance
@@ -117,6 +114,11 @@ until ($read == 100000) {
 		my $otherTaxon = shift(@relatives);
 		print OUT "read$read\t$otherTaxon\t$blastline\n";
 	}
+
+	#produce a hit to the real taxon - we put
+	#this at the end so minspec cannot simply
+	#select the best hit (not that it does)
+	print OUT "read$read\t$taxon\t$blastline\n";
 
 	++$read;
 }
