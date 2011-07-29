@@ -72,3 +72,9 @@ foreach $taxon (keys(%taxa)) {
 print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage";
 
 #select the subset
+until (keys(%assemblage) == 300) {
+	my $taxon = @taxa[int(rand(@taxa))];
+	next if exists $assemblage{$taxon};
+	$assemblage{$taxon} = "";
+	print "\n$taxon is part of the assemblage";
+}
