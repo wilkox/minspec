@@ -16,7 +16,7 @@
 ####
 ## 1 - randomly generate a set of "taxa", some of which have sequence identity to each other
 
-print "\nSTEP 1 - randomly generate a set of \"taxa\", some of which have sequence identity to each other";
+print "\nSTEP 1 - randomly generating 1000 taxa";
 
 #read in lists of adjectives, nouns and animals
 my @adjectives = split(/\n/, `cat ../ref/adjectives.list`);
@@ -35,5 +35,40 @@ until (keys(%taxa) == 1000) {
 
 }
 
+#randomly create sequence identity relationships between taxa
+print "\nGenerating relationships between taxa...";
+
+my @taxa = keys(%taxa); #for picking random taxa
+
+foreach $taxon (keys(%taxa)) {
+
+	#max 50 relationships/taxon
+	until (keys(%{$relativesOf{$taxon}}) >= 50) {
+
+		#30% of the time, randomly stop adding relationships to the current taxon
+		last if rand() > 0.7;
+
+		#pick another taxon at random
+		my $otherTaxon = @taxa[int(rand(@taxa))];
+
+		#don't make relationship if other taxon is self, relationship
+		#already exists, or other taxon already has 50 relationships
+		next if $otherTaxon eq $taxon;
+		next if exists $relativesOf{$taxon}{$otherTaxon};
+		next if keys(%{$relativesOf{$otherTaxon}}) >= 50;
+
+		#make the relationship (in both directions)
+		$relativesOf{$taxon}{$otherTaxon} = "";
+		$relativesOf{$otherTaxon}{$taxon} = "";
+
+		print "\n$taxon and $otherTaxon are now related ($taxon has ". keys(%{$relativesOf{$taxon}}) . " relationships)";
+	}
+
+}
+
 ####
-## 2 - 
+## 2 - select a subset of these "taxa" to be the "assemblage"
+
+print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage";
+
+#select the subset
