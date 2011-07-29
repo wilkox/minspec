@@ -6,7 +6,7 @@
 #Ye, Y. and Doak, T.G.. A parsimony approach to biological pathway reconstruction/inference for genomes and metagenomes. PLoS Computational Biology 2009, vol 5 num 8
 #http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000465
 
-#this is version 0.1
+#version 0.1
 #written by David Wilkins <david@wilkox.org>, <david.wilkins@unsw.edu.au>
 #this software is released into the public domain. To the extent possible under law, all copyright and related or neighboring rights are waived and permission is explicitly granted to copy, modify, adapt, sell and distribute this software in any way you choose.
 
@@ -16,9 +16,9 @@ minspec -b <blast hittable>
 
 OPTIONAL:
 
--g	<filename> Produce a hittable containing only hits to species present in the minimal set, suitable for processing with GAAS. Default filename is <blast hittable>.filtered
+-g	<filename> Produce a BLAST hit table containing only hits to species present in the minimal set, suitable for processing with GAAS. Default filename is <blast hittable>.filtered
 -l	<filename> Produce a list of species, indicating whether or not they are present in the minimal set ('1' = present, '0' = not present). Default filename is <blast hittable>.minimal.list
--max	<maximum read count> Set a maximum number of reads with identity to a species, less than which the species may still be parsimoniously eliminated but equal to or more than which the species will be marked as present regardless of its presence in the minimal set. Set to 50 if -m flag is provided without a value. NOT YET IMPLEMENTED
+-max	<maximum read count> Set a maximum number of reads with identity to a species, less than which the species may still be parsimoniously eliminated but equal to or more than which the species will be marked as present regardless of its presence in the minimal set. Set to 50 if -m flag is provided without a value.
 /;
 
 use Getopt::Long;
