@@ -52,7 +52,7 @@ foreach $taxon (keys(%taxa)) {
 	until (keys(%{$relativesOf{$taxon}}) >= 50) {
 
 		#30% of the time, randomly stop adding relationships to the current taxon
-		last if rand() > 0.7;
+		last if rand() > 0.3;
 
 		#pick another taxon at random
 		my $otherTaxon = @taxa[int(rand(@taxa))];
@@ -108,12 +108,12 @@ until ($read == 100000) {
 	#produce a hit to that taxon
 	print OUT "read$read\t$taxon\t$blastline\n";
 
-	#with a 40% chance on each iteration, also produce hits to other related taxa.
+	#with a 80% chance on each iteration, also produce hits to other related taxa.
 	#by shifting off one end of the list instead of picking randomly, 
 	#we simulate a curve of relationship distance
 	my @relatives = keys(%{$relativesOf{$taxon}}); #for random picking
 	until (@relatives == 0) {
-		last if rand() > 0.40;
+		last if rand() > 0.8;
 		my $otherTaxon = shift(@relatives);
 		print OUT "read$read\t$otherTaxon\t$blastline\n";
 	}
