@@ -13,9 +13,6 @@
 # 4 - process the "blast output" in minspec
 # 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
 
-#this test will run verbosely and generate lots of informative files along the way
-
-
 ####
 ## 1 - randomly generate a set of "taxa", some of which have sequence identity to each other
 
@@ -25,3 +22,18 @@ print "\nSTEP 1 - randomly generate a set of \"taxa\", some of which have sequen
 my @adjectives = split(/\n/, `cat ../ref/adjectives.list`);
 my @nouns = split(/\n/, `cat ../ref/nouns.list`);
 my @animals = split(/\n/, `cat ../ref/animals.list`);
+
+#generate database of 1000 "taxa"
+print "\nGenerating \"taxa\"...";
+
+until (keys(%taxa) == 1000) {
+
+	my $taxon = @adjectives[int(rand(@adjectives))] . "_" . @nouns[int(rand(@nouns))] . "-" . @animals[int(rand(@animals))];
+	next if exists($taxa{$taxon});
+	$taxa{$taxon} = "";
+	print "\nCreated $taxon";
+
+}
+
+####
+## 2 - 
