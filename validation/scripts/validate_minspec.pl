@@ -13,30 +13,36 @@
 # 4 - process the "blast output" in minspec
 # 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
 
+if (@ARGV[0] eq "--verbose" || @ARGV[0] eq "-v") {
+	$verbose = 1;
+}
+
+print "\nRun with --verbose or -v for verbose output" unless $verbose == 1;
+
 ####
 ## 1 - randomly generate a set of "taxa", some of which have sequence identity to each other
 
-print "\nSTEP 1 - randomly generating 1000 taxa";
+print "\nSTEP 1 - randomly generating 50000 taxa" if $verbose == 1;
 
 #read in lists of adjectives, nouns and animals
 my @adjectives = split(/\n/, `cat ../ref/adjectives.list`);
 my @nouns = split(/\n/, `cat ../ref/nouns.list`);
 my @animals = split(/\n/, `cat ../ref/animals.list`);
 
-#generate database of 1000 "taxa"
-print "\nGenerating \"taxa\"...";
+#generate database of 50000 "taxa"
+print "\nGenerating \"taxa\"..." if $verbose == 1;
 
-until (keys(%taxa) == 1000) {
+until (keys(%taxa) == 50000) {
 
 	my $taxon = @adjectives[int(rand(@adjectives))] . "_" . @nouns[int(rand(@nouns))] . "-" . @animals[int(rand(@animals))];
 	next if exists($taxa{$taxon});
 	$taxa{$taxon} = "";
-	print "\nCreated $taxon";
+	print "\nCreated $taxon" if $verbose == 1;
 
 }
 
 #randomly create sequence identity relationships between taxa
-print "\nGenerating relationships between taxa...";
+print "\nGenerating relationships between taxa..." if $verbose == 1;
 
 my @taxa = keys(%taxa); #for picking random taxa
 
@@ -61,7 +67,7 @@ foreach $taxon (keys(%taxa)) {
 		$relativesOf{$taxon}{$otherTaxon} = "";
 		$relativesOf{$otherTaxon}{$taxon} = "";
 
-		print "\n$taxon and $otherTaxon are now related ($taxon has ". keys(%{$relativesOf{$taxon}}) . " relationships)";
+		print "\n$taxon and $otherTaxon are now related ($taxon has ". keys(%{$relativesOf{$taxon}}) . " relationships)" if $verbose == 1;
 	}
 
 }
@@ -69,20 +75,20 @@ foreach $taxon (keys(%taxa)) {
 ####
 ## 2 - select a subset of these "taxa" to be the "assemblage"
 
-print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage";
+print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage" if $verbose == 1;
 
 #select the subset
 until (keys(%assemblage) == 300) {
 	my $taxon = @taxa[int(rand(@taxa))];
 	next if exists $assemblage{$taxon};
 	$assemblage{$taxon} = "";
-	print "\n$taxon is part of the assemblage";
+	print "\n$taxon is part of the assemblage" if $verbose == 1;
 }
 
 ####
 ## 3 - simulate a blast of the "assemblage" metagenome against the database of "taxa". to simulate sequence identity between genomes, some "reads" will (at random) have identity to both their true "taxon" and one (or more) "taxa" related to their true "taxon". we will assume that appropriately stringent identity and E-value thresholds have been set on the blast. this blast output will thus represent the common metagenomic situation which minspec is intended to help resolve, where there are high-scoring hits to organisms which are not actually present in the sample, but which have identity to organisms actually in the sample
 
-print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage against the database of taxa\n";
+print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage against the database of taxa\n" if $verbose == 1;
 
 #open the "blast output"
 die unless open(OUT, ">../blast_output/validation.blast_output");
@@ -94,7 +100,7 @@ my $blastline = "100	500	0	0	1	500	1	500	0	500"; #this is the rest of the blast 
 
 until ($read == 100000) {
 
-	print "\rread $read of 100000";
+	print "\rread $read of 100000" if $verbose == 1;
 
 	#randomly select a taxon from the assemblage
 	my $taxon = @assemblage[int(rand(@assemblage))];
@@ -120,14 +126,14 @@ close OUT;
 ####
 ## 4 - process the "blast output" in minspec
 
-print "\nSTEP 4 - processing the pseudo-blast output with minspec";
+print "\nSTEP 4 - processing the pseudo-blast output with minspec" if $verbose == 1;
 
 system("perl ../../minspec.pl -b ../blast_output/validation.blast_output -l ../minspec_output/validation_minspec_output.list");
 
 ####
 ## 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
 
-print "\nSTEP 6 - comparing minspec-determined minimal set to actual assemblage";
+print "\nSTEP 6 - comparing minspec-determined minimal set to actual assemblage" if $verbose == 1;
 
 #read in minspec output
 my @minspecOutput = split(/\n/, `cat ../minspec_output/validation_minspec_output.list`);
