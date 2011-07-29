@@ -1,10 +1,10 @@
 #About 
 
-`minspec` is a bioinformatic tool designed to identify the most parsimonious set of species needed to explain the result of a blast search. 
+`minspec` is a bioinformatic tool for metagenomic studies. It identifies the most parsimonious set of species which explain the output of a blast search.
 
-A common problem in metagenomics is processing reads which have very high identity to more than one species. Because many species share genomic sequence with high conservation, it's often not clear which species a given read originated from. The normal solution is to split the "hit" between all species which match above a certain identity, bit score or E-value threshold, but this is not satisfying for a number of reasons, not least that many of the "identified" species are probably not actually there.
+A common problem in metagenomics is handling reads which have high sequence identity to more than one species. Because a lot of genomic sequence is highly conserved between species, it's often not clear which species a read originated from. The normal solution is to split the "hit" between all species which match above a certain identity, bit score or E-value threshold, but this is not satisfying for a number of reasons, not least that many of the "identified" species are probably not actually there.
 
-`minspec` solves this by computing the *most parsimonious* set of species needed to explain the observed hits. It does this by framing the computation as a linear programming (LP) problem, and passing it to the GNU Linear Programming Kit (GLPK).
+`minspec` solves this by computing the *most parsimonious* set of species needed to explain the observed hits. It does this by framing the computation as a linear programming (LP) problem, which is solved the GNU Linear Programming Kit (GLPK).
 
 The output of `minspec` is _not_ a definitive list of species present in a sample, but rather a result to be interpreted. Although validation tests show `minspec` is generally very reliable when working with simulated metagenomes, it is expected that in real experiments it will report both false positive and false negative results.
 
@@ -18,10 +18,10 @@ The output of `minspec` is _not_ a definitive list of species present in a sampl
 #Validation
 Included in this repository is a script written to validate minspec by simulating a metagenomics experiment. Full details are included in the script (validation/scripts/validate\_minspec.pl).
 
-#License
-`minspec` is released into the public domain. To the extent possible uner law, all copyright and related or neighboring rights are waived and permission is explicitly and irrevocably granted to copy, modify, adapt, sell and distribute it in any way you choose.
+#License and citation
+`minspec` is released into the public domain. To the extent possible under law, all copyright and related or neighboring rights are waived and permission is explicitly and irrevocably granted to copy, modify, adapt, sell and distribute it in any way you choose.
 
-However, citation would be appreciated. A manuscript is in preparation, so for now please refer to the project repository at [GitHub](https://github.com/wilkox/minspec/). Patches and contributions are encouraged.
+Citation is not necessary but would be appreciated. A manuscript is in preparation, so for now please refer to the project repository at [GitHub](https://github.com/wilkox/minspec/). Patches and contributions are encouraged.
 
 #Author
 `minspec` was written by David Wilkins: david@wilkox.org, david.wilkins@unsw.edu.au
