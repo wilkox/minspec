@@ -102,9 +102,9 @@ until ($read == 100000) {
 	#produce a hit to that taxon
 	print OUT "read$read\t$taxon\t$blastline\n";
 
-	#with a 40% chance on each iteration, also produce hits to other related taxa
+	#with a 40% chance on each iteration, also produce hits to other related taxa.
 	#by shifting off one end of the list instead of picking randomly, 
-	#we simulate closer and more distant relationships
+	#we simulate a curve of relationship distance
 	my @relatives = keys(%{$relativesOf{$taxon}}); #for random picking
 	until (@relatives == 0) {
 		last if rand() > 0.40;
@@ -123,3 +123,40 @@ close OUT;
 print "\nSTEP 4 - processing the pseudo-blast output with minspec";
 
 system("perl ../../minspec.pl -b ../blast_output/validation.blast_output -l ../minspec_output/validation_minspec_output.list");
+
+####
+## 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
+
+print "\nSTEP 6 - comparing minspec-determined minimal set to actual assemblage";
+
+#read in minspec output
+my @minspecOutput = split(/\n/, `cat ../minspec_output/validation_minspec_output.list`);
+
+#go though output and compare to assemblage
+foreach (@minspecOutput) {
+	$_ =~ /^(\S+)\t([1|0])$/;
+	my $taxon = $1;
+	my $status = $2;
+
+	#for taxa which are part of the minimal set
+	if ($status == 1) {
+		++$falsePositve unless exists $assemblage{$taxon};
+	}
+
+	#for taxa which are not part of the minimal set
+	if ($status == 0) {
+		++$falseNegative if exists $assemblage{$taxon};
+	}
+}
+
+#report the results!
+
+#false +ve rate is proportion of "false" taxa (present in blast results
+#but not in assemblage) reported by minspec as positive
+my $falsePositiveRate = 100 * $falsePositive / (@minspecOutput - @assemblage);
+
+#false -ve rate is proportion of assemblage taxa reported
+#by minspec as absent
+my $falseNegativeRate = 100 * $falseNegative / @assemblage;
+
+print "\nRESULTS:\nFalse positive rate: $falsePositiveRate%\nFalse negative rate: $falseNegativeRate%";
