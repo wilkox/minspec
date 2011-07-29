@@ -88,7 +88,6 @@ print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage a
 die unless open(OUT, ">../blast_output/validation.blast_output");
 
 #"blast" 100000 "reads"
-
 my @assemblage = keys(%assemblage); #for random picking
 my $read = 0; #initial read ID
 my $blastline = "100	500	0	0	1	500	1	500	0	500"; #this is the rest of the blast output line - not actually important for minspec but will be added to each line for completeness
@@ -117,3 +116,10 @@ until ($read == 100000) {
 }
 
 close OUT;
+
+####
+## 4 - process the "blast output" in minspec
+
+print "\nSTEP 4 - processing the pseudo-blast output with minspec";
+
+system("perl ../../minspec.pl -b ../blast_output/validation.blast_output -l ../minspec_output/validation_minspec_output.list");
