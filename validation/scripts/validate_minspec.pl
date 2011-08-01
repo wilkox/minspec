@@ -40,7 +40,7 @@ mkdir "../minspec_output" unless -d "../minspec_output";
 ####
 ## 1 - randomly generate a set of "taxa", some of which have sequence identity to each other
 
-print "\nSTEP 1 - randomly generating 50000 taxa" if $verbose == 1;
+print "\nSTEP 1 - randomly generating 50000 taxa";
 
 #read in lists of adjectives, nouns and animals
 my @adjectives = split(/\n/, `cat ../ref/adjectives.list`);
@@ -70,8 +70,8 @@ foreach $taxon (keys(%taxa)) {
 	#max 50 relationships/taxon
 	until (keys(%{$relativesOf{$taxon}}) >= 50) {
 
-		#30% of the time, randomly stop adding relationships to the current taxon
-		last if rand() > 0.3;
+		#10% of the time, randomly stop adding relationships to the current taxon
+		last if rand() > 0.1;
 
 		#pick another taxon at random
 		my $otherTaxon = @taxa[int(rand(@taxa))];
@@ -94,7 +94,7 @@ foreach $taxon (keys(%taxa)) {
 ####
 ## 2 - select a subset of these "taxa" to be the "assemblage"
 
-print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage" if $verbose == 1;
+print "\nSTEP 2 - select a subset of 300 taxa to be the assemblage";
 
 #select the subset
 until (keys(%assemblage) == 300) {
@@ -111,7 +111,7 @@ until (keys(%assemblage) == 300) {
 ####
 ## 3 - simulate a blast of the "assemblage" metagenome against the database of "taxa". to simulate sequence identity between genomes, some "reads" will (at random) have identity to both their true "taxon" and one (or more) "taxa" related to their true "taxon". we will assume that appropriately stringent identity and E-value thresholds have been set on the blast. this blast output will thus represent the common metagenomic situation which minspec is intended to help resolve, where there are high-scoring hits to organisms which are not actually present in the sample, but which have identity to organisms actually in the sample
 
-print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage against the database of taxa\n" if $verbose == 1;
+print "\nSTEP 3 - simulating blast of a metagenomic sample from the assemblage against the database of taxa\n";
 
 #open the "blast output"
 die unless open(OUT, ">../blast_output/validation.blast_output");
@@ -123,7 +123,7 @@ my $blastline = "100	500	0	0	1	500	1	500	0	500"; #this is the rest of the blast 
 
 until ($read == 100000) {
 
-	print "\rread $read of 100000" if $verbose == 1;
+	print "\rread $read of 100000" if $verbose == 1 && $read % 5000 == 0;
 
 	#randomly select a taxon from the assemblage
 	my $taxon = @assemblage[int(rand(@assemblage))];
@@ -158,14 +158,14 @@ close OUT;
 ####
 ## 4 - process the "blast output" in minspec
 
-print "\nSTEP 4 - processing the pseudo-blast output with minspec" if $verbose == 1;
+print "\nSTEP 4 - processing the pseudo-blast output with minspec";
 
 system("perl ../../minspec.pl -b ../blast_output/validation.blast_output -l ../minspec_output/validation_minspec_output.list");
 
 ####
 ## 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
 
-print "\nSTEP 5 - comparing minspec-determined minimal set to actual assemblage" if $verbose == 1;
+print "\nSTEP 5 - comparing minspec-determined minimal set to actual assemblage";
 
 #read in minspec output
 my @minspecOutput = split(/\n/, `cat ../minspec_output/validation_minspec_output.list`);
