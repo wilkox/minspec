@@ -165,7 +165,7 @@ system("perl ../../minspec.pl -b ../blast_output/validation.blast_output -l ../m
 ####
 ## 5 - compare minspec's minimal species set to the assemblage generated in step 2, and calculate false positive and negative rates
 
-print "\nSTEP 6 - comparing minspec-determined minimal set to actual assemblage" if $verbose == 1;
+print "\nSTEP 5 - comparing minspec-determined minimal set to actual assemblage" if $verbose == 1;
 
 #read in minspec output
 my @minspecOutput = split(/\n/, `cat ../minspec_output/validation_minspec_output.list`);
@@ -182,7 +182,7 @@ foreach (@minspecOutput) {
 	}
 
 	#for taxa which are not part of the minimal set but
-	#were part of the assemblage
+	#were part of the assemblage and generated reads
 	if ($status == 0) {
 		++$falseNegativeMinspec if exists $assemblage{$taxon};
 	}
