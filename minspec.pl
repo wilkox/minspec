@@ -1,16 +1,21 @@
 #!/usr/bin/perl
 
-#minspec: determines minimal set of species needed to explain species assignments from a dataset of metagenomic reads, eliminating spurious species assignments
+#minspec: determines minimal set of species needed to explain 
+# species assignments from a dataset of metagenomic reads, 
+# eliminating spurious species assignments.
+
 
 #based on the approach of, and borrows heavily from, MinPath:
-#Ye, Y. and Doak, T.G.. A parsimony approach to biological pathway reconstruction/inference for genomes and metagenomes. PLoS Computational Biology 2009, vol 5 num 8
+# Ye, Y. and Doak, T.G.. A parsimony approach to biological pathway 
+# reconstruction/inference for genomes and metagenomes. PLoS
+# Computational Biology 2009, vol 5 num 8
 #http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000465
 
 #version 0.1
 #written by David Wilkins <david@wilkox.org>, <david.wilkins@unsw.edu.au>
-#this software is released into the public domain. To the extent possible under law, all copyright and related or neighboring rights are waived and permission is explicitly and irrevocably granted to copy, modify, adapt, sell and distribute this software in any way you choose.
+#minspec lives at https://github.com/wilkox/minspec
 
-#see README.markdown for more
+#this software is released into the public domain. To the extent possible under law, all copyright and related or neighboring rights are waived and permission is explicitly and irrevocably granted to copy, modify, adapt, sell and distribute this software in any way you choose.
 
 $USAGE = q/USAGE:
 

@@ -15,6 +15,16 @@ The output of `minspec` is _not_ a definitive list of species present in a sampl
 #Usage
 `minspec` is written in `perl` for a linux or other unix-like environment. It depends on the GNU Linear Programming Toolkit (GLPK) `glpsol`, available from http://www.gnu.org/s/glpk/. If you have trouble getting `minspec` to run, contact the author or (better) modify the script to support your platform and submit a patch.
 
+`USAGE:
+
+minspec -b <blast hittable>
+
+OPTIONAL:
+
+-g      <filename> Produce a BLAST hit table containing only hits to species present in the minimal set, suitable for processing with GAAS. Default filename is <blast hittable>.filtered
+-l      <filename> Produce a list of species, indicating whether or not they are present in the minimal set ('1' = present, '0' = not present). Default filename is <blast hittable>.minimal.list
+-max    <maximum read count> Set a maximum number of reads with identity to a species, less than which the species may still be parsimoniously eliminated but equal to or more than which the species will be marked as present regardless of its presence in the minimal set. Set to 50 if -m flag is provided without a value.`
+
 #Validation
 Included in this repository is a script written to validate minspec by simulating a metagenomics experiment. Full details are included in the script (validation/scripts/validate\_minspec.pl).
 
