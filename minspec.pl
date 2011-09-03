@@ -15,7 +15,11 @@
 #written by David Wilkins <david@wilkox.org>, <david.wilkins@unsw.edu.au>
 #minspec lives at https://github.com/wilkox/minspec
 
-#this software is released into the public domain. To the extent possible under law, all copyright and related or neighboring rights are waived and permission is explicitly and irrevocably granted to copy, modify, adapt, sell and distribute this software in any way you choose.
+#this software is released into the public domain. To the extent 
+# possible under law, all copyright and related or neighboring
+# rights are waived and permission is explicitly and irrevocably
+# granted to copy, modify, adapt, sell and distribute this software
+# in any way you choose.
 
 $USAGE = q/USAGE:
 

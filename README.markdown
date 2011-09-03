@@ -4,11 +4,11 @@
 
 A common problem in metagenomics is handling reads which have high sequence identity to more than one species. Because a lot of genomic sequence is conserved between species, it's often unclear which species a read originated from. The normal solution is to split hits between all species which match above a certain identity, bit score or E-value threshold, but this is not satisfying for several reasons, not least that many of the identified species are probably not actually there.
 
-`minspec` helps fix this by computing the *most parsimonious* set of species needed to explain the observed hits. It does this by framing the computation as a linear programming (LP) problem, which is solved the GNU Linear Programming Kit (GLPK).
+`minspec` helps fix this by computing the *most parsimonious* set of species needed to explain the observed hits. It does this by framing the computation as a linear programming (LP) problem, which is solved with the GNU Linear Programming Kit (GLPK).
 
 The output of `minspec` is _not_ a definitive list of species present in a sample, but rather a result to be interpreted. Although tests show `minspec` is generally very reliable when working with simulated metagenomes, it is expected that in real experiments it will report both false positive and false negative results.
 
-`minspec` was inspired by and draws heavily from a similar approach to identifying the minimal set of pathways needed to explain an observed proteome:
+`minspec` was inspired by and draws heavily from a similar approach to identifying the minimal set of pathways needed to explain an observed set of protein hits:
 
 [Ye, Y. and Doak, T.G.. A parsimony approach to biological pathway reconstruction/inference for genomes and metagenomes. PLoS Computational Biology 2009, vol 5 num 8](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000465)
 
