@@ -42,7 +42,7 @@ my $numberOfTaxa = 50000;
 my $sizeOfAssemblage = 300;
 my $numberOfReads = 100000;
 
-#get options
+#get and check options
 use Getopt::Long;
 GetOptions (
   't=s' => \$numberOfTaxa,
@@ -50,6 +50,8 @@ GetOptions (
   'r=s' => \$numberOfReads,
   'verbose' => \$verbose,
 );
+
+die ("ERROR - the assemblage cannot have more taxa than exist!") if $sizeOfAssemblage > $numberOfTaxa;
 
 #make sure working dirs exist
 mkdir "../blast_output" unless -d "../blast_output";
