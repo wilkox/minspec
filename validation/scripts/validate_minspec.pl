@@ -49,9 +49,12 @@ GetOptions (
   'a=s' => \$sizeOfAssemblage,
   'r=s' => \$numberOfReads,
   'verbose' => \$verbose,
+  'help' => \$help,
 );
-
+die $USAGE if $help;
 die ("ERROR - the assemblage cannot have more taxa than exist!") if $sizeOfAssemblage > $numberOfTaxa;
+
+print STDERR "\nRun with '--help' for all options" unless $verbose;
 
 #make sure working dirs exist
 mkdir "../blast_output" unless -d "../blast_output";
