@@ -164,19 +164,21 @@ until ($read == $numberOfReads) {
 		last if rand() > 0.3;
 		my $otherTaxon = shift(@relatives);
 		print OUT "read$read\t$otherTaxon\t$blastline\n";
-		$presentInBlast{$otherTaxon};
+		$presentInBlast{$otherTaxon} = "";
 	}
 
-	#produce a hit to the real taxon - we put
-	#this at the end so minspec cannot simply
-	#select the best hit (not that it does)
+	#produce a hit to the real taxon
 	print OUT "read$read\t$taxon\t$blastline\n";
-	$presentInBlast{$taxon};
+	$presentInBlast{$taxon} = "";
 
 	++$read;
 }
 
 close OUT;
+
+#calculate what the false positive rate
+# would be without minspec
+my $falsePositiveWithoutMinspec = 
 
 ####
 ## 4 - process the "blast output" in minspec
