@@ -225,7 +225,11 @@ foreach my $taxon (@assemblage) {
 
 #false +ve rate is proportion of "false" taxa (present in blast results
 #but not in assemblage) reported by minspec as positive
-my $falsePositiveRate = abs((100 * $falsePositive) / (keys(%presentInBlast) - @assemblage));
+if (keys(%presentInBlast == 0)) {
+  my $faslePositiveRate = 0;
+} else {
+  my $falsePositiveRate = abs((100 * $falsePositive) / (keys(%presentInBlast) - @assemblage));
+}
 
 #false -ve rate is proportion of assemblage taxa not
 #reported as present by minspec
