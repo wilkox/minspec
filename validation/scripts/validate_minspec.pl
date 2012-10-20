@@ -176,10 +176,6 @@ until ($read == $numberOfReads) {
 
 close OUT;
 
-#calculate what the false positive rate
-# would be without minspec
-my $falsePositiveWithoutMinspec = 
-
 ####
 ## 4 - process the "blast output" in minspec
 
@@ -225,11 +221,7 @@ foreach my $taxon (@assemblage) {
 
 #false +ve rate is proportion of "false" taxa (present in blast results
 #but not in assemblage) reported by minspec as positive
-if (keys(%presentInBlast) == 0) {
-  my $faslePositiveRate = 0;
-} else {
-  my $falsePositiveRate = abs((100 * $falsePositive) / (keys(%presentInBlast) - @assemblage));
-}
+my $falsePositiveRate = abs((100 * $falsePositive) / (keys(%presentInBlast) - @assemblage));
 
 #false -ve rate is proportion of assemblage taxa not
 #reported as present by minspec
