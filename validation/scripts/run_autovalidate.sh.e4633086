@@ -1,0 +1,1053 @@
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `module'
+
+[1 of 1050]	100 taxon, 1 assemblage, 10 reads, repeat #1
+[2 of 1050]	100 taxon, 1 assemblage, 10 reads, repeat #2
+[3 of 1050]	100 taxon, 1 assemblage, 10 reads, repeat #3
+[4 of 1050]	100 taxon, 1 assemblage, 10 reads, repeat #4
+[5 of 1050]	100 taxon, 1 assemblage, 10 reads, repeat #5
+[6 of 1050]	100 taxon, 1 assemblage, 100 reads, repeat #1
+[7 of 1050]	100 taxon, 1 assemblage, 100 reads, repeat #2
+[8 of 1050]	100 taxon, 1 assemblage, 100 reads, repeat #3
+[9 of 1050]	100 taxon, 1 assemblage, 100 reads, repeat #4
+[10 of 1050]	100 taxon, 1 assemblage, 100 reads, repeat #5
+[11 of 1050]	100 taxon, 1 assemblage, 1000 reads, repeat #1
+[12 of 1050]	100 taxon, 1 assemblage, 1000 reads, repeat #2
+[13 of 1050]	100 taxon, 1 assemblage, 1000 reads, repeat #3
+[14 of 1050]	100 taxon, 1 assemblage, 1000 reads, repeat #4
+[15 of 1050]	100 taxon, 1 assemblage, 1000 reads, repeat #5
+[16 of 1050]	100 taxon, 1 assemblage, 10000 reads, repeat #1
+[17 of 1050]	100 taxon, 1 assemblage, 10000 reads, repeat #2
+[18 of 1050]	100 taxon, 1 assemblage, 10000 reads, repeat #3
+[19 of 1050]	100 taxon, 1 assemblage, 10000 reads, repeat #4
+[20 of 1050]	100 taxon, 1 assemblage, 10000 reads, repeat #5
+[21 of 1050]	100 taxon, 1 assemblage, 100000 reads, repeat #1
+[22 of 1050]	100 taxon, 1 assemblage, 100000 reads, repeat #2
+[23 of 1050]	100 taxon, 1 assemblage, 100000 reads, repeat #3
+[24 of 1050]	100 taxon, 1 assemblage, 100000 reads, repeat #4
+[25 of 1050]	100 taxon, 1 assemblage, 100000 reads, repeat #5
+[26 of 1050]	100 taxon, 1 assemblage, 200000 reads, repeat #1
+[27 of 1050]	100 taxon, 1 assemblage, 200000 reads, repeat #2
+[28 of 1050]	100 taxon, 1 assemblage, 200000 reads, repeat #3
+[29 of 1050]	100 taxon, 1 assemblage, 200000 reads, repeat #4
+[30 of 1050]	100 taxon, 1 assemblage, 200000 reads, repeat #5
+[31 of 1050]	100 taxon, 10 assemblage, 10 reads, repeat #1
+[32 of 1050]	100 taxon, 10 assemblage, 10 reads, repeat #2
+[33 of 1050]	100 taxon, 10 assemblage, 10 reads, repeat #3
+[34 of 1050]	100 taxon, 10 assemblage, 10 reads, repeat #4
+[35 of 1050]	100 taxon, 10 assemblage, 10 reads, repeat #5
+[36 of 1050]	100 taxon, 10 assemblage, 100 reads, repeat #1
+[37 of 1050]	100 taxon, 10 assemblage, 100 reads, repeat #2
+[38 of 1050]	100 taxon, 10 assemblage, 100 reads, repeat #3
+[39 of 1050]	100 taxon, 10 assemblage, 100 reads, repeat #4
+[40 of 1050]	100 taxon, 10 assemblage, 100 reads, repeat #5
+[41 of 1050]	100 taxon, 10 assemblage, 1000 reads, repeat #1
+[42 of 1050]	100 taxon, 10 assemblage, 1000 reads, repeat #2
+[43 of 1050]	100 taxon, 10 assemblage, 1000 reads, repeat #3
+[44 of 1050]	100 taxon, 10 assemblage, 1000 reads, repeat #4
+[45 of 1050]	100 taxon, 10 assemblage, 1000 reads, repeat #5
+[46 of 1050]	100 taxon, 10 assemblage, 10000 reads, repeat #1
+[47 of 1050]	100 taxon, 10 assemblage, 10000 reads, repeat #2
+[48 of 1050]	100 taxon, 10 assemblage, 10000 reads, repeat #3
+[49 of 1050]	100 taxon, 10 assemblage, 10000 reads, repeat #4
+[50 of 1050]	100 taxon, 10 assemblage, 10000 reads, repeat #5
+[51 of 1050]	100 taxon, 10 assemblage, 100000 reads, repeat #1
+[52 of 1050]	100 taxon, 10 assemblage, 100000 reads, repeat #2
+[53 of 1050]	100 taxon, 10 assemblage, 100000 reads, repeat #3
+[54 of 1050]	100 taxon, 10 assemblage, 100000 reads, repeat #4
+[55 of 1050]	100 taxon, 10 assemblage, 100000 reads, repeat #5
+[56 of 1050]	100 taxon, 10 assemblage, 200000 reads, repeat #1
+[57 of 1050]	100 taxon, 10 assemblage, 200000 reads, repeat #2
+[58 of 1050]	100 taxon, 10 assemblage, 200000 reads, repeat #3
+[59 of 1050]	100 taxon, 10 assemblage, 200000 reads, repeat #4
+[60 of 1050]	100 taxon, 10 assemblage, 200000 reads, repeat #5
+[61 of 1050]	100 taxon, 100 assemblage, 10 reads, repeat #1
+[62 of 1050]	100 taxon, 100 assemblage, 10 reads, repeat #2
+[63 of 1050]	100 taxon, 100 assemblage, 10 reads, repeat #3
+[64 of 1050]	100 taxon, 100 assemblage, 10 reads, repeat #4
+[65 of 1050]	100 taxon, 100 assemblage, 10 reads, repeat #5
+[66 of 1050]	100 taxon, 100 assemblage, 100 reads, repeat #1
+[67 of 1050]	100 taxon, 100 assemblage, 100 reads, repeat #2
+[68 of 1050]	100 taxon, 100 assemblage, 100 reads, repeat #3
+[69 of 1050]	100 taxon, 100 assemblage, 100 reads, repeat #4
+[70 of 1050]	100 taxon, 100 assemblage, 100 reads, repeat #5
+[71 of 1050]	100 taxon, 100 assemblage, 1000 reads, repeat #1
+[72 of 1050]	100 taxon, 100 assemblage, 1000 reads, repeat #2
+[73 of 1050]	100 taxon, 100 assemblage, 1000 reads, repeat #3
+[74 of 1050]	100 taxon, 100 assemblage, 1000 reads, repeat #4
+[75 of 1050]	100 taxon, 100 assemblage, 1000 reads, repeat #5
+[76 of 1050]	100 taxon, 100 assemblage, 10000 reads, repeat #1
+[77 of 1050]	100 taxon, 100 assemblage, 10000 reads, repeat #2
+[78 of 1050]	100 taxon, 100 assemblage, 10000 reads, repeat #3
+[79 of 1050]	100 taxon, 100 assemblage, 10000 reads, repeat #4
+[80 of 1050]	100 taxon, 100 assemblage, 10000 reads, repeat #5
+[81 of 1050]	100 taxon, 100 assemblage, 100000 reads, repeat #1
+[82 of 1050]	100 taxon, 100 assemblage, 100000 reads, repeat #2
+[83 of 1050]	100 taxon, 100 assemblage, 100000 reads, repeat #3
+[84 of 1050]	100 taxon, 100 assemblage, 100000 reads, repeat #4
+[85 of 1050]	100 taxon, 100 assemblage, 100000 reads, repeat #5
+[86 of 1050]	100 taxon, 100 assemblage, 200000 reads, repeat #1
+[87 of 1050]	100 taxon, 100 assemblage, 200000 reads, repeat #2
+[88 of 1050]	100 taxon, 100 assemblage, 200000 reads, repeat #3
+[89 of 1050]	100 taxon, 100 assemblage, 200000 reads, repeat #4
+[90 of 1050]	100 taxon, 100 assemblage, 200000 reads, repeat #5
+[91 of 1050]	100 taxon, 300 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[92 of 1050]	100 taxon, 300 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[93 of 1050]	100 taxon, 300 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[94 of 1050]	100 taxon, 300 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[95 of 1050]	100 taxon, 300 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[96 of 1050]	100 taxon, 300 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[97 of 1050]	100 taxon, 300 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[98 of 1050]	100 taxon, 300 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[99 of 1050]	100 taxon, 300 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[100 of 1050]	100 taxon, 300 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[101 of 1050]	100 taxon, 300 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[102 of 1050]	100 taxon, 300 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[103 of 1050]	100 taxon, 300 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[104 of 1050]	100 taxon, 300 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[105 of 1050]	100 taxon, 300 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[106 of 1050]	100 taxon, 300 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[107 of 1050]	100 taxon, 300 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[108 of 1050]	100 taxon, 300 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[109 of 1050]	100 taxon, 300 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[110 of 1050]	100 taxon, 300 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[111 of 1050]	100 taxon, 300 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[112 of 1050]	100 taxon, 300 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[113 of 1050]	100 taxon, 300 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[114 of 1050]	100 taxon, 300 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[115 of 1050]	100 taxon, 300 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[116 of 1050]	100 taxon, 300 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[117 of 1050]	100 taxon, 300 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[118 of 1050]	100 taxon, 300 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[119 of 1050]	100 taxon, 300 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[120 of 1050]	100 taxon, 300 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[121 of 1050]	100 taxon, 500 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[122 of 1050]	100 taxon, 500 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[123 of 1050]	100 taxon, 500 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[124 of 1050]	100 taxon, 500 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[125 of 1050]	100 taxon, 500 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[126 of 1050]	100 taxon, 500 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[127 of 1050]	100 taxon, 500 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[128 of 1050]	100 taxon, 500 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[129 of 1050]	100 taxon, 500 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[130 of 1050]	100 taxon, 500 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[131 of 1050]	100 taxon, 500 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[132 of 1050]	100 taxon, 500 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[133 of 1050]	100 taxon, 500 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[134 of 1050]	100 taxon, 500 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[135 of 1050]	100 taxon, 500 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[136 of 1050]	100 taxon, 500 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[137 of 1050]	100 taxon, 500 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[138 of 1050]	100 taxon, 500 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[139 of 1050]	100 taxon, 500 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[140 of 1050]	100 taxon, 500 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[141 of 1050]	100 taxon, 500 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[142 of 1050]	100 taxon, 500 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[143 of 1050]	100 taxon, 500 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[144 of 1050]	100 taxon, 500 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[145 of 1050]	100 taxon, 500 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[146 of 1050]	100 taxon, 500 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[147 of 1050]	100 taxon, 500 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[148 of 1050]	100 taxon, 500 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[149 of 1050]	100 taxon, 500 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[150 of 1050]	100 taxon, 500 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[151 of 1050]	100 taxon, 1000 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[152 of 1050]	100 taxon, 1000 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[153 of 1050]	100 taxon, 1000 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[154 of 1050]	100 taxon, 1000 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[155 of 1050]	100 taxon, 1000 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[156 of 1050]	100 taxon, 1000 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[157 of 1050]	100 taxon, 1000 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[158 of 1050]	100 taxon, 1000 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[159 of 1050]	100 taxon, 1000 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[160 of 1050]	100 taxon, 1000 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[161 of 1050]	100 taxon, 1000 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[162 of 1050]	100 taxon, 1000 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[163 of 1050]	100 taxon, 1000 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[164 of 1050]	100 taxon, 1000 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[165 of 1050]	100 taxon, 1000 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[166 of 1050]	100 taxon, 1000 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[167 of 1050]	100 taxon, 1000 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[168 of 1050]	100 taxon, 1000 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[169 of 1050]	100 taxon, 1000 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[170 of 1050]	100 taxon, 1000 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[171 of 1050]	100 taxon, 1000 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[172 of 1050]	100 taxon, 1000 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[173 of 1050]	100 taxon, 1000 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[174 of 1050]	100 taxon, 1000 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[175 of 1050]	100 taxon, 1000 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[176 of 1050]	100 taxon, 1000 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[177 of 1050]	100 taxon, 1000 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[178 of 1050]	100 taxon, 1000 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[179 of 1050]	100 taxon, 1000 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[180 of 1050]	100 taxon, 1000 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[181 of 1050]	100 taxon, 10000 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[182 of 1050]	100 taxon, 10000 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[183 of 1050]	100 taxon, 10000 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[184 of 1050]	100 taxon, 10000 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[185 of 1050]	100 taxon, 10000 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[186 of 1050]	100 taxon, 10000 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[187 of 1050]	100 taxon, 10000 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[188 of 1050]	100 taxon, 10000 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[189 of 1050]	100 taxon, 10000 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[190 of 1050]	100 taxon, 10000 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[191 of 1050]	100 taxon, 10000 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[192 of 1050]	100 taxon, 10000 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[193 of 1050]	100 taxon, 10000 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[194 of 1050]	100 taxon, 10000 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[195 of 1050]	100 taxon, 10000 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[196 of 1050]	100 taxon, 10000 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[197 of 1050]	100 taxon, 10000 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[198 of 1050]	100 taxon, 10000 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[199 of 1050]	100 taxon, 10000 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[200 of 1050]	100 taxon, 10000 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[201 of 1050]	100 taxon, 10000 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[202 of 1050]	100 taxon, 10000 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[203 of 1050]	100 taxon, 10000 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[204 of 1050]	100 taxon, 10000 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[205 of 1050]	100 taxon, 10000 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[206 of 1050]	100 taxon, 10000 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[207 of 1050]	100 taxon, 10000 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[208 of 1050]	100 taxon, 10000 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[209 of 1050]	100 taxon, 10000 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[210 of 1050]	100 taxon, 10000 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[211 of 1050]	1000 taxon, 1 assemblage, 10 reads, repeat #1
+[212 of 1050]	1000 taxon, 1 assemblage, 10 reads, repeat #2
+[213 of 1050]	1000 taxon, 1 assemblage, 10 reads, repeat #3
+[214 of 1050]	1000 taxon, 1 assemblage, 10 reads, repeat #4
+[215 of 1050]	1000 taxon, 1 assemblage, 10 reads, repeat #5
+[216 of 1050]	1000 taxon, 1 assemblage, 100 reads, repeat #1
+[217 of 1050]	1000 taxon, 1 assemblage, 100 reads, repeat #2
+[218 of 1050]	1000 taxon, 1 assemblage, 100 reads, repeat #3
+[219 of 1050]	1000 taxon, 1 assemblage, 100 reads, repeat #4
+[220 of 1050]	1000 taxon, 1 assemblage, 100 reads, repeat #5
+[221 of 1050]	1000 taxon, 1 assemblage, 1000 reads, repeat #1
+[222 of 1050]	1000 taxon, 1 assemblage, 1000 reads, repeat #2
+[223 of 1050]	1000 taxon, 1 assemblage, 1000 reads, repeat #3
+[224 of 1050]	1000 taxon, 1 assemblage, 1000 reads, repeat #4
+[225 of 1050]	1000 taxon, 1 assemblage, 1000 reads, repeat #5
+[226 of 1050]	1000 taxon, 1 assemblage, 10000 reads, repeat #1
+[227 of 1050]	1000 taxon, 1 assemblage, 10000 reads, repeat #2
+[228 of 1050]	1000 taxon, 1 assemblage, 10000 reads, repeat #3
+[229 of 1050]	1000 taxon, 1 assemblage, 10000 reads, repeat #4
+[230 of 1050]	1000 taxon, 1 assemblage, 10000 reads, repeat #5
+[231 of 1050]	1000 taxon, 1 assemblage, 100000 reads, repeat #1
+[232 of 1050]	1000 taxon, 1 assemblage, 100000 reads, repeat #2
+[233 of 1050]	1000 taxon, 1 assemblage, 100000 reads, repeat #3
+[234 of 1050]	1000 taxon, 1 assemblage, 100000 reads, repeat #4
+[235 of 1050]	1000 taxon, 1 assemblage, 100000 reads, repeat #5
+[236 of 1050]	1000 taxon, 1 assemblage, 200000 reads, repeat #1
+[237 of 1050]	1000 taxon, 1 assemblage, 200000 reads, repeat #2
+[238 of 1050]	1000 taxon, 1 assemblage, 200000 reads, repeat #3
+[239 of 1050]	1000 taxon, 1 assemblage, 200000 reads, repeat #4
+[240 of 1050]	1000 taxon, 1 assemblage, 200000 reads, repeat #5
+[241 of 1050]	1000 taxon, 10 assemblage, 10 reads, repeat #1
+[242 of 1050]	1000 taxon, 10 assemblage, 10 reads, repeat #2
+[243 of 1050]	1000 taxon, 10 assemblage, 10 reads, repeat #3
+[244 of 1050]	1000 taxon, 10 assemblage, 10 reads, repeat #4
+[245 of 1050]	1000 taxon, 10 assemblage, 10 reads, repeat #5
+[246 of 1050]	1000 taxon, 10 assemblage, 100 reads, repeat #1
+[247 of 1050]	1000 taxon, 10 assemblage, 100 reads, repeat #2
+[248 of 1050]	1000 taxon, 10 assemblage, 100 reads, repeat #3
+[249 of 1050]	1000 taxon, 10 assemblage, 100 reads, repeat #4
+[250 of 1050]	1000 taxon, 10 assemblage, 100 reads, repeat #5
+[251 of 1050]	1000 taxon, 10 assemblage, 1000 reads, repeat #1
+[252 of 1050]	1000 taxon, 10 assemblage, 1000 reads, repeat #2
+[253 of 1050]	1000 taxon, 10 assemblage, 1000 reads, repeat #3
+[254 of 1050]	1000 taxon, 10 assemblage, 1000 reads, repeat #4
+[255 of 1050]	1000 taxon, 10 assemblage, 1000 reads, repeat #5
+[256 of 1050]	1000 taxon, 10 assemblage, 10000 reads, repeat #1
+[257 of 1050]	1000 taxon, 10 assemblage, 10000 reads, repeat #2
+[258 of 1050]	1000 taxon, 10 assemblage, 10000 reads, repeat #3
+[259 of 1050]	1000 taxon, 10 assemblage, 10000 reads, repeat #4
+[260 of 1050]	1000 taxon, 10 assemblage, 10000 reads, repeat #5
+[261 of 1050]	1000 taxon, 10 assemblage, 100000 reads, repeat #1
+[262 of 1050]	1000 taxon, 10 assemblage, 100000 reads, repeat #2
+[263 of 1050]	1000 taxon, 10 assemblage, 100000 reads, repeat #3
+[264 of 1050]	1000 taxon, 10 assemblage, 100000 reads, repeat #4
+[265 of 1050]	1000 taxon, 10 assemblage, 100000 reads, repeat #5
+[266 of 1050]	1000 taxon, 10 assemblage, 200000 reads, repeat #1
+[267 of 1050]	1000 taxon, 10 assemblage, 200000 reads, repeat #2
+[268 of 1050]	1000 taxon, 10 assemblage, 200000 reads, repeat #3
+[269 of 1050]	1000 taxon, 10 assemblage, 200000 reads, repeat #4
+[270 of 1050]	1000 taxon, 10 assemblage, 200000 reads, repeat #5
+[271 of 1050]	1000 taxon, 100 assemblage, 10 reads, repeat #1
+[272 of 1050]	1000 taxon, 100 assemblage, 10 reads, repeat #2
+[273 of 1050]	1000 taxon, 100 assemblage, 10 reads, repeat #3
+[274 of 1050]	1000 taxon, 100 assemblage, 10 reads, repeat #4
+[275 of 1050]	1000 taxon, 100 assemblage, 10 reads, repeat #5
+[276 of 1050]	1000 taxon, 100 assemblage, 100 reads, repeat #1
+[277 of 1050]	1000 taxon, 100 assemblage, 100 reads, repeat #2
+[278 of 1050]	1000 taxon, 100 assemblage, 100 reads, repeat #3
+[279 of 1050]	1000 taxon, 100 assemblage, 100 reads, repeat #4
+[280 of 1050]	1000 taxon, 100 assemblage, 100 reads, repeat #5
+[281 of 1050]	1000 taxon, 100 assemblage, 1000 reads, repeat #1
+[282 of 1050]	1000 taxon, 100 assemblage, 1000 reads, repeat #2
+[283 of 1050]	1000 taxon, 100 assemblage, 1000 reads, repeat #3
+[284 of 1050]	1000 taxon, 100 assemblage, 1000 reads, repeat #4
+[285 of 1050]	1000 taxon, 100 assemblage, 1000 reads, repeat #5
+[286 of 1050]	1000 taxon, 100 assemblage, 10000 reads, repeat #1
+[287 of 1050]	1000 taxon, 100 assemblage, 10000 reads, repeat #2
+[288 of 1050]	1000 taxon, 100 assemblage, 10000 reads, repeat #3
+[289 of 1050]	1000 taxon, 100 assemblage, 10000 reads, repeat #4
+[290 of 1050]	1000 taxon, 100 assemblage, 10000 reads, repeat #5
+[291 of 1050]	1000 taxon, 100 assemblage, 100000 reads, repeat #1
+[292 of 1050]	1000 taxon, 100 assemblage, 100000 reads, repeat #2
+[293 of 1050]	1000 taxon, 100 assemblage, 100000 reads, repeat #3
+[294 of 1050]	1000 taxon, 100 assemblage, 100000 reads, repeat #4
+[295 of 1050]	1000 taxon, 100 assemblage, 100000 reads, repeat #5
+[296 of 1050]	1000 taxon, 100 assemblage, 200000 reads, repeat #1
+[297 of 1050]	1000 taxon, 100 assemblage, 200000 reads, repeat #2
+[298 of 1050]	1000 taxon, 100 assemblage, 200000 reads, repeat #3
+[299 of 1050]	1000 taxon, 100 assemblage, 200000 reads, repeat #4
+[300 of 1050]	1000 taxon, 100 assemblage, 200000 reads, repeat #5
+[301 of 1050]	1000 taxon, 300 assemblage, 10 reads, repeat #1
+[302 of 1050]	1000 taxon, 300 assemblage, 10 reads, repeat #2
+[303 of 1050]	1000 taxon, 300 assemblage, 10 reads, repeat #3
+[304 of 1050]	1000 taxon, 300 assemblage, 10 reads, repeat #4
+[305 of 1050]	1000 taxon, 300 assemblage, 10 reads, repeat #5
+[306 of 1050]	1000 taxon, 300 assemblage, 100 reads, repeat #1
+[307 of 1050]	1000 taxon, 300 assemblage, 100 reads, repeat #2
+[308 of 1050]	1000 taxon, 300 assemblage, 100 reads, repeat #3
+[309 of 1050]	1000 taxon, 300 assemblage, 100 reads, repeat #4
+[310 of 1050]	1000 taxon, 300 assemblage, 100 reads, repeat #5
+[311 of 1050]	1000 taxon, 300 assemblage, 1000 reads, repeat #1
+[312 of 1050]	1000 taxon, 300 assemblage, 1000 reads, repeat #2
+[313 of 1050]	1000 taxon, 300 assemblage, 1000 reads, repeat #3
+[314 of 1050]	1000 taxon, 300 assemblage, 1000 reads, repeat #4
+[315 of 1050]	1000 taxon, 300 assemblage, 1000 reads, repeat #5
+[316 of 1050]	1000 taxon, 300 assemblage, 10000 reads, repeat #1
+[317 of 1050]	1000 taxon, 300 assemblage, 10000 reads, repeat #2
+[318 of 1050]	1000 taxon, 300 assemblage, 10000 reads, repeat #3
+[319 of 1050]	1000 taxon, 300 assemblage, 10000 reads, repeat #4
+[320 of 1050]	1000 taxon, 300 assemblage, 10000 reads, repeat #5
+[321 of 1050]	1000 taxon, 300 assemblage, 100000 reads, repeat #1
+[322 of 1050]	1000 taxon, 300 assemblage, 100000 reads, repeat #2
+[323 of 1050]	1000 taxon, 300 assemblage, 100000 reads, repeat #3
+[324 of 1050]	1000 taxon, 300 assemblage, 100000 reads, repeat #4
+[325 of 1050]	1000 taxon, 300 assemblage, 100000 reads, repeat #5
+[326 of 1050]	1000 taxon, 300 assemblage, 200000 reads, repeat #1
+[327 of 1050]	1000 taxon, 300 assemblage, 200000 reads, repeat #2
+[328 of 1050]	1000 taxon, 300 assemblage, 200000 reads, repeat #3
+[329 of 1050]	1000 taxon, 300 assemblage, 200000 reads, repeat #4
+[330 of 1050]	1000 taxon, 300 assemblage, 200000 reads, repeat #5
+[331 of 1050]	1000 taxon, 500 assemblage, 10 reads, repeat #1
+[332 of 1050]	1000 taxon, 500 assemblage, 10 reads, repeat #2
+[333 of 1050]	1000 taxon, 500 assemblage, 10 reads, repeat #3
+[334 of 1050]	1000 taxon, 500 assemblage, 10 reads, repeat #4
+[335 of 1050]	1000 taxon, 500 assemblage, 10 reads, repeat #5
+[336 of 1050]	1000 taxon, 500 assemblage, 100 reads, repeat #1
+[337 of 1050]	1000 taxon, 500 assemblage, 100 reads, repeat #2
+[338 of 1050]	1000 taxon, 500 assemblage, 100 reads, repeat #3
+[339 of 1050]	1000 taxon, 500 assemblage, 100 reads, repeat #4
+[340 of 1050]	1000 taxon, 500 assemblage, 100 reads, repeat #5
+[341 of 1050]	1000 taxon, 500 assemblage, 1000 reads, repeat #1
+[342 of 1050]	1000 taxon, 500 assemblage, 1000 reads, repeat #2
+[343 of 1050]	1000 taxon, 500 assemblage, 1000 reads, repeat #3
+[344 of 1050]	1000 taxon, 500 assemblage, 1000 reads, repeat #4
+[345 of 1050]	1000 taxon, 500 assemblage, 1000 reads, repeat #5
+[346 of 1050]	1000 taxon, 500 assemblage, 10000 reads, repeat #1
+[347 of 1050]	1000 taxon, 500 assemblage, 10000 reads, repeat #2
+[348 of 1050]	1000 taxon, 500 assemblage, 10000 reads, repeat #3
+[349 of 1050]	1000 taxon, 500 assemblage, 10000 reads, repeat #4
+[350 of 1050]	1000 taxon, 500 assemblage, 10000 reads, repeat #5
+[351 of 1050]	1000 taxon, 500 assemblage, 100000 reads, repeat #1
+[352 of 1050]	1000 taxon, 500 assemblage, 100000 reads, repeat #2
+[353 of 1050]	1000 taxon, 500 assemblage, 100000 reads, repeat #3
+[354 of 1050]	1000 taxon, 500 assemblage, 100000 reads, repeat #4
+[355 of 1050]	1000 taxon, 500 assemblage, 100000 reads, repeat #5
+[356 of 1050]	1000 taxon, 500 assemblage, 200000 reads, repeat #1
+[357 of 1050]	1000 taxon, 500 assemblage, 200000 reads, repeat #2
+[358 of 1050]	1000 taxon, 500 assemblage, 200000 reads, repeat #3
+[359 of 1050]	1000 taxon, 500 assemblage, 200000 reads, repeat #4
+[360 of 1050]	1000 taxon, 500 assemblage, 200000 reads, repeat #5
+[361 of 1050]	1000 taxon, 1000 assemblage, 10 reads, repeat #1
+[362 of 1050]	1000 taxon, 1000 assemblage, 10 reads, repeat #2
+[363 of 1050]	1000 taxon, 1000 assemblage, 10 reads, repeat #3
+[364 of 1050]	1000 taxon, 1000 assemblage, 10 reads, repeat #4
+[365 of 1050]	1000 taxon, 1000 assemblage, 10 reads, repeat #5
+[366 of 1050]	1000 taxon, 1000 assemblage, 100 reads, repeat #1
+[367 of 1050]	1000 taxon, 1000 assemblage, 100 reads, repeat #2
+[368 of 1050]	1000 taxon, 1000 assemblage, 100 reads, repeat #3
+[369 of 1050]	1000 taxon, 1000 assemblage, 100 reads, repeat #4
+[370 of 1050]	1000 taxon, 1000 assemblage, 100 reads, repeat #5
+[371 of 1050]	1000 taxon, 1000 assemblage, 1000 reads, repeat #1
+[372 of 1050]	1000 taxon, 1000 assemblage, 1000 reads, repeat #2
+[373 of 1050]	1000 taxon, 1000 assemblage, 1000 reads, repeat #3
+[374 of 1050]	1000 taxon, 1000 assemblage, 1000 reads, repeat #4
+[375 of 1050]	1000 taxon, 1000 assemblage, 1000 reads, repeat #5
+[376 of 1050]	1000 taxon, 1000 assemblage, 10000 reads, repeat #1
+[377 of 1050]	1000 taxon, 1000 assemblage, 10000 reads, repeat #2
+[378 of 1050]	1000 taxon, 1000 assemblage, 10000 reads, repeat #3
+[379 of 1050]	1000 taxon, 1000 assemblage, 10000 reads, repeat #4
+[380 of 1050]	1000 taxon, 1000 assemblage, 10000 reads, repeat #5
+[381 of 1050]	1000 taxon, 1000 assemblage, 100000 reads, repeat #1
+[382 of 1050]	1000 taxon, 1000 assemblage, 100000 reads, repeat #2
+[383 of 1050]	1000 taxon, 1000 assemblage, 100000 reads, repeat #3
+[384 of 1050]	1000 taxon, 1000 assemblage, 100000 reads, repeat #4
+[385 of 1050]	1000 taxon, 1000 assemblage, 100000 reads, repeat #5
+[386 of 1050]	1000 taxon, 1000 assemblage, 200000 reads, repeat #1
+[387 of 1050]	1000 taxon, 1000 assemblage, 200000 reads, repeat #2
+[388 of 1050]	1000 taxon, 1000 assemblage, 200000 reads, repeat #3
+[389 of 1050]	1000 taxon, 1000 assemblage, 200000 reads, repeat #4
+[390 of 1050]	1000 taxon, 1000 assemblage, 200000 reads, repeat #5
+[391 of 1050]	1000 taxon, 10000 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[392 of 1050]	1000 taxon, 10000 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[393 of 1050]	1000 taxon, 10000 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[394 of 1050]	1000 taxon, 10000 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[395 of 1050]	1000 taxon, 10000 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[396 of 1050]	1000 taxon, 10000 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[397 of 1050]	1000 taxon, 10000 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[398 of 1050]	1000 taxon, 10000 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[399 of 1050]	1000 taxon, 10000 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[400 of 1050]	1000 taxon, 10000 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[401 of 1050]	1000 taxon, 10000 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[402 of 1050]	1000 taxon, 10000 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[403 of 1050]	1000 taxon, 10000 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[404 of 1050]	1000 taxon, 10000 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[405 of 1050]	1000 taxon, 10000 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[406 of 1050]	1000 taxon, 10000 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[407 of 1050]	1000 taxon, 10000 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[408 of 1050]	1000 taxon, 10000 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[409 of 1050]	1000 taxon, 10000 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[410 of 1050]	1000 taxon, 10000 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[411 of 1050]	1000 taxon, 10000 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[412 of 1050]	1000 taxon, 10000 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[413 of 1050]	1000 taxon, 10000 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[414 of 1050]	1000 taxon, 10000 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[415 of 1050]	1000 taxon, 10000 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[416 of 1050]	1000 taxon, 10000 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[417 of 1050]	1000 taxon, 10000 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[418 of 1050]	1000 taxon, 10000 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[419 of 1050]	1000 taxon, 10000 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[420 of 1050]	1000 taxon, 10000 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[421 of 1050]	10000 taxon, 1 assemblage, 10 reads, repeat #1
+[422 of 1050]	10000 taxon, 1 assemblage, 10 reads, repeat #2
+[423 of 1050]	10000 taxon, 1 assemblage, 10 reads, repeat #3
+[424 of 1050]	10000 taxon, 1 assemblage, 10 reads, repeat #4
+[425 of 1050]	10000 taxon, 1 assemblage, 10 reads, repeat #5
+[426 of 1050]	10000 taxon, 1 assemblage, 100 reads, repeat #1
+[427 of 1050]	10000 taxon, 1 assemblage, 100 reads, repeat #2
+[428 of 1050]	10000 taxon, 1 assemblage, 100 reads, repeat #3
+[429 of 1050]	10000 taxon, 1 assemblage, 100 reads, repeat #4
+[430 of 1050]	10000 taxon, 1 assemblage, 100 reads, repeat #5
+[431 of 1050]	10000 taxon, 1 assemblage, 1000 reads, repeat #1
+[432 of 1050]	10000 taxon, 1 assemblage, 1000 reads, repeat #2
+[433 of 1050]	10000 taxon, 1 assemblage, 1000 reads, repeat #3
+[434 of 1050]	10000 taxon, 1 assemblage, 1000 reads, repeat #4
+[435 of 1050]	10000 taxon, 1 assemblage, 1000 reads, repeat #5
+[436 of 1050]	10000 taxon, 1 assemblage, 10000 reads, repeat #1
+[437 of 1050]	10000 taxon, 1 assemblage, 10000 reads, repeat #2
+[438 of 1050]	10000 taxon, 1 assemblage, 10000 reads, repeat #3
+[439 of 1050]	10000 taxon, 1 assemblage, 10000 reads, repeat #4
+[440 of 1050]	10000 taxon, 1 assemblage, 10000 reads, repeat #5
+[441 of 1050]	10000 taxon, 1 assemblage, 100000 reads, repeat #1
+[442 of 1050]	10000 taxon, 1 assemblage, 100000 reads, repeat #2
+[443 of 1050]	10000 taxon, 1 assemblage, 100000 reads, repeat #3
+[444 of 1050]	10000 taxon, 1 assemblage, 100000 reads, repeat #4
+[445 of 1050]	10000 taxon, 1 assemblage, 100000 reads, repeat #5
+[446 of 1050]	10000 taxon, 1 assemblage, 200000 reads, repeat #1
+[447 of 1050]	10000 taxon, 1 assemblage, 200000 reads, repeat #2
+[448 of 1050]	10000 taxon, 1 assemblage, 200000 reads, repeat #3
+[449 of 1050]	10000 taxon, 1 assemblage, 200000 reads, repeat #4
+[450 of 1050]	10000 taxon, 1 assemblage, 200000 reads, repeat #5
+[451 of 1050]	10000 taxon, 10 assemblage, 10 reads, repeat #1
+[452 of 1050]	10000 taxon, 10 assemblage, 10 reads, repeat #2
+[453 of 1050]	10000 taxon, 10 assemblage, 10 reads, repeat #3
+[454 of 1050]	10000 taxon, 10 assemblage, 10 reads, repeat #4
+[455 of 1050]	10000 taxon, 10 assemblage, 10 reads, repeat #5
+[456 of 1050]	10000 taxon, 10 assemblage, 100 reads, repeat #1
+[457 of 1050]	10000 taxon, 10 assemblage, 100 reads, repeat #2
+[458 of 1050]	10000 taxon, 10 assemblage, 100 reads, repeat #3
+[459 of 1050]	10000 taxon, 10 assemblage, 100 reads, repeat #4
+[460 of 1050]	10000 taxon, 10 assemblage, 100 reads, repeat #5
+[461 of 1050]	10000 taxon, 10 assemblage, 1000 reads, repeat #1
+[462 of 1050]	10000 taxon, 10 assemblage, 1000 reads, repeat #2
+[463 of 1050]	10000 taxon, 10 assemblage, 1000 reads, repeat #3
+[464 of 1050]	10000 taxon, 10 assemblage, 1000 reads, repeat #4
+[465 of 1050]	10000 taxon, 10 assemblage, 1000 reads, repeat #5
+[466 of 1050]	10000 taxon, 10 assemblage, 10000 reads, repeat #1
+[467 of 1050]	10000 taxon, 10 assemblage, 10000 reads, repeat #2
+[468 of 1050]	10000 taxon, 10 assemblage, 10000 reads, repeat #3
+[469 of 1050]	10000 taxon, 10 assemblage, 10000 reads, repeat #4
+[470 of 1050]	10000 taxon, 10 assemblage, 10000 reads, repeat #5
+[471 of 1050]	10000 taxon, 10 assemblage, 100000 reads, repeat #1
+[472 of 1050]	10000 taxon, 10 assemblage, 100000 reads, repeat #2
+[473 of 1050]	10000 taxon, 10 assemblage, 100000 reads, repeat #3
+[474 of 1050]	10000 taxon, 10 assemblage, 100000 reads, repeat #4
+[475 of 1050]	10000 taxon, 10 assemblage, 100000 reads, repeat #5
+[476 of 1050]	10000 taxon, 10 assemblage, 200000 reads, repeat #1
+[477 of 1050]	10000 taxon, 10 assemblage, 200000 reads, repeat #2
+[478 of 1050]	10000 taxon, 10 assemblage, 200000 reads, repeat #3
+[479 of 1050]	10000 taxon, 10 assemblage, 200000 reads, repeat #4
+[480 of 1050]	10000 taxon, 10 assemblage, 200000 reads, repeat #5
+[481 of 1050]	10000 taxon, 100 assemblage, 10 reads, repeat #1
+[482 of 1050]	10000 taxon, 100 assemblage, 10 reads, repeat #2
+[483 of 1050]	10000 taxon, 100 assemblage, 10 reads, repeat #3
+[484 of 1050]	10000 taxon, 100 assemblage, 10 reads, repeat #4
+[485 of 1050]	10000 taxon, 100 assemblage, 10 reads, repeat #5
+[486 of 1050]	10000 taxon, 100 assemblage, 100 reads, repeat #1
+[487 of 1050]	10000 taxon, 100 assemblage, 100 reads, repeat #2
+[488 of 1050]	10000 taxon, 100 assemblage, 100 reads, repeat #3
+[489 of 1050]	10000 taxon, 100 assemblage, 100 reads, repeat #4
+[490 of 1050]	10000 taxon, 100 assemblage, 100 reads, repeat #5
+[491 of 1050]	10000 taxon, 100 assemblage, 1000 reads, repeat #1
+[492 of 1050]	10000 taxon, 100 assemblage, 1000 reads, repeat #2
+[493 of 1050]	10000 taxon, 100 assemblage, 1000 reads, repeat #3
+[494 of 1050]	10000 taxon, 100 assemblage, 1000 reads, repeat #4
+[495 of 1050]	10000 taxon, 100 assemblage, 1000 reads, repeat #5
+[496 of 1050]	10000 taxon, 100 assemblage, 10000 reads, repeat #1
+[497 of 1050]	10000 taxon, 100 assemblage, 10000 reads, repeat #2
+[498 of 1050]	10000 taxon, 100 assemblage, 10000 reads, repeat #3
+[499 of 1050]	10000 taxon, 100 assemblage, 10000 reads, repeat #4
+[500 of 1050]	10000 taxon, 100 assemblage, 10000 reads, repeat #5
+[501 of 1050]	10000 taxon, 100 assemblage, 100000 reads, repeat #1
+[502 of 1050]	10000 taxon, 100 assemblage, 100000 reads, repeat #2
+[503 of 1050]	10000 taxon, 100 assemblage, 100000 reads, repeat #3
+[504 of 1050]	10000 taxon, 100 assemblage, 100000 reads, repeat #4
+[505 of 1050]	10000 taxon, 100 assemblage, 100000 reads, repeat #5
+[506 of 1050]	10000 taxon, 100 assemblage, 200000 reads, repeat #1
+[507 of 1050]	10000 taxon, 100 assemblage, 200000 reads, repeat #2
+[508 of 1050]	10000 taxon, 100 assemblage, 200000 reads, repeat #3
+[509 of 1050]	10000 taxon, 100 assemblage, 200000 reads, repeat #4
+[510 of 1050]	10000 taxon, 100 assemblage, 200000 reads, repeat #5
+[511 of 1050]	10000 taxon, 300 assemblage, 10 reads, repeat #1
+[512 of 1050]	10000 taxon, 300 assemblage, 10 reads, repeat #2
+[513 of 1050]	10000 taxon, 300 assemblage, 10 reads, repeat #3
+[514 of 1050]	10000 taxon, 300 assemblage, 10 reads, repeat #4
+[515 of 1050]	10000 taxon, 300 assemblage, 10 reads, repeat #5
+[516 of 1050]	10000 taxon, 300 assemblage, 100 reads, repeat #1
+[517 of 1050]	10000 taxon, 300 assemblage, 100 reads, repeat #2
+[518 of 1050]	10000 taxon, 300 assemblage, 100 reads, repeat #3
+[519 of 1050]	10000 taxon, 300 assemblage, 100 reads, repeat #4
+[520 of 1050]	10000 taxon, 300 assemblage, 100 reads, repeat #5
+[521 of 1050]	10000 taxon, 300 assemblage, 1000 reads, repeat #1
+[522 of 1050]	10000 taxon, 300 assemblage, 1000 reads, repeat #2
+[523 of 1050]	10000 taxon, 300 assemblage, 1000 reads, repeat #3
+[524 of 1050]	10000 taxon, 300 assemblage, 1000 reads, repeat #4
+[525 of 1050]	10000 taxon, 300 assemblage, 1000 reads, repeat #5
+[526 of 1050]	10000 taxon, 300 assemblage, 10000 reads, repeat #1
+[527 of 1050]	10000 taxon, 300 assemblage, 10000 reads, repeat #2
+[528 of 1050]	10000 taxon, 300 assemblage, 10000 reads, repeat #3
+[529 of 1050]	10000 taxon, 300 assemblage, 10000 reads, repeat #4
+[530 of 1050]	10000 taxon, 300 assemblage, 10000 reads, repeat #5
+[531 of 1050]	10000 taxon, 300 assemblage, 100000 reads, repeat #1
+[532 of 1050]	10000 taxon, 300 assemblage, 100000 reads, repeat #2
+[533 of 1050]	10000 taxon, 300 assemblage, 100000 reads, repeat #3
+[534 of 1050]	10000 taxon, 300 assemblage, 100000 reads, repeat #4
+[535 of 1050]	10000 taxon, 300 assemblage, 100000 reads, repeat #5
+[536 of 1050]	10000 taxon, 300 assemblage, 200000 reads, repeat #1
+[537 of 1050]	10000 taxon, 300 assemblage, 200000 reads, repeat #2
+[538 of 1050]	10000 taxon, 300 assemblage, 200000 reads, repeat #3
+[539 of 1050]	10000 taxon, 300 assemblage, 200000 reads, repeat #4
+[540 of 1050]	10000 taxon, 300 assemblage, 200000 reads, repeat #5
+[541 of 1050]	10000 taxon, 500 assemblage, 10 reads, repeat #1
+[542 of 1050]	10000 taxon, 500 assemblage, 10 reads, repeat #2
+[543 of 1050]	10000 taxon, 500 assemblage, 10 reads, repeat #3
+[544 of 1050]	10000 taxon, 500 assemblage, 10 reads, repeat #4
+[545 of 1050]	10000 taxon, 500 assemblage, 10 reads, repeat #5
+[546 of 1050]	10000 taxon, 500 assemblage, 100 reads, repeat #1
+[547 of 1050]	10000 taxon, 500 assemblage, 100 reads, repeat #2
+[548 of 1050]	10000 taxon, 500 assemblage, 100 reads, repeat #3
+[549 of 1050]	10000 taxon, 500 assemblage, 100 reads, repeat #4
+[550 of 1050]	10000 taxon, 500 assemblage, 100 reads, repeat #5
+[551 of 1050]	10000 taxon, 500 assemblage, 1000 reads, repeat #1
+[552 of 1050]	10000 taxon, 500 assemblage, 1000 reads, repeat #2
+[553 of 1050]	10000 taxon, 500 assemblage, 1000 reads, repeat #3
+[554 of 1050]	10000 taxon, 500 assemblage, 1000 reads, repeat #4
+[555 of 1050]	10000 taxon, 500 assemblage, 1000 reads, repeat #5
+[556 of 1050]	10000 taxon, 500 assemblage, 10000 reads, repeat #1
+[557 of 1050]	10000 taxon, 500 assemblage, 10000 reads, repeat #2
+[558 of 1050]	10000 taxon, 500 assemblage, 10000 reads, repeat #3
+[559 of 1050]	10000 taxon, 500 assemblage, 10000 reads, repeat #4
+[560 of 1050]	10000 taxon, 500 assemblage, 10000 reads, repeat #5
+[561 of 1050]	10000 taxon, 500 assemblage, 100000 reads, repeat #1
+[562 of 1050]	10000 taxon, 500 assemblage, 100000 reads, repeat #2
+[563 of 1050]	10000 taxon, 500 assemblage, 100000 reads, repeat #3
+[564 of 1050]	10000 taxon, 500 assemblage, 100000 reads, repeat #4
+[565 of 1050]	10000 taxon, 500 assemblage, 100000 reads, repeat #5
+[566 of 1050]	10000 taxon, 500 assemblage, 200000 reads, repeat #1
+[567 of 1050]	10000 taxon, 500 assemblage, 200000 reads, repeat #2
+[568 of 1050]	10000 taxon, 500 assemblage, 200000 reads, repeat #3
+[569 of 1050]	10000 taxon, 500 assemblage, 200000 reads, repeat #4
+[570 of 1050]	10000 taxon, 500 assemblage, 200000 reads, repeat #5
+[571 of 1050]	10000 taxon, 1000 assemblage, 10 reads, repeat #1
+[572 of 1050]	10000 taxon, 1000 assemblage, 10 reads, repeat #2
+[573 of 1050]	10000 taxon, 1000 assemblage, 10 reads, repeat #3
+[574 of 1050]	10000 taxon, 1000 assemblage, 10 reads, repeat #4
+[575 of 1050]	10000 taxon, 1000 assemblage, 10 reads, repeat #5
+[576 of 1050]	10000 taxon, 1000 assemblage, 100 reads, repeat #1
+[577 of 1050]	10000 taxon, 1000 assemblage, 100 reads, repeat #2
+[578 of 1050]	10000 taxon, 1000 assemblage, 100 reads, repeat #3
+[579 of 1050]	10000 taxon, 1000 assemblage, 100 reads, repeat #4
+[580 of 1050]	10000 taxon, 1000 assemblage, 100 reads, repeat #5
+[581 of 1050]	10000 taxon, 1000 assemblage, 1000 reads, repeat #1
+[582 of 1050]	10000 taxon, 1000 assemblage, 1000 reads, repeat #2
+[583 of 1050]	10000 taxon, 1000 assemblage, 1000 reads, repeat #3
+[584 of 1050]	10000 taxon, 1000 assemblage, 1000 reads, repeat #4
+[585 of 1050]	10000 taxon, 1000 assemblage, 1000 reads, repeat #5
+[586 of 1050]	10000 taxon, 1000 assemblage, 10000 reads, repeat #1
+[587 of 1050]	10000 taxon, 1000 assemblage, 10000 reads, repeat #2
+[588 of 1050]	10000 taxon, 1000 assemblage, 10000 reads, repeat #3
+[589 of 1050]	10000 taxon, 1000 assemblage, 10000 reads, repeat #4
+[590 of 1050]	10000 taxon, 1000 assemblage, 10000 reads, repeat #5
+[591 of 1050]	10000 taxon, 1000 assemblage, 100000 reads, repeat #1
+[592 of 1050]	10000 taxon, 1000 assemblage, 100000 reads, repeat #2
+[593 of 1050]	10000 taxon, 1000 assemblage, 100000 reads, repeat #3
+[594 of 1050]	10000 taxon, 1000 assemblage, 100000 reads, repeat #4
+[595 of 1050]	10000 taxon, 1000 assemblage, 100000 reads, repeat #5
+[596 of 1050]	10000 taxon, 1000 assemblage, 200000 reads, repeat #1
+[597 of 1050]	10000 taxon, 1000 assemblage, 200000 reads, repeat #2
+[598 of 1050]	10000 taxon, 1000 assemblage, 200000 reads, repeat #3
+[599 of 1050]	10000 taxon, 1000 assemblage, 200000 reads, repeat #4
+[600 of 1050]	10000 taxon, 1000 assemblage, 200000 reads, repeat #5
+[601 of 1050]	10000 taxon, 10000 assemblage, 10 reads, repeat #1
+[602 of 1050]	10000 taxon, 10000 assemblage, 10 reads, repeat #2
+[603 of 1050]	10000 taxon, 10000 assemblage, 10 reads, repeat #3
+[604 of 1050]	10000 taxon, 10000 assemblage, 10 reads, repeat #4
+[605 of 1050]	10000 taxon, 10000 assemblage, 10 reads, repeat #5
+[606 of 1050]	10000 taxon, 10000 assemblage, 100 reads, repeat #1
+[607 of 1050]	10000 taxon, 10000 assemblage, 100 reads, repeat #2
+[608 of 1050]	10000 taxon, 10000 assemblage, 100 reads, repeat #3
+[609 of 1050]	10000 taxon, 10000 assemblage, 100 reads, repeat #4
+[610 of 1050]	10000 taxon, 10000 assemblage, 100 reads, repeat #5
+[611 of 1050]	10000 taxon, 10000 assemblage, 1000 reads, repeat #1
+[612 of 1050]	10000 taxon, 10000 assemblage, 1000 reads, repeat #2
+[613 of 1050]	10000 taxon, 10000 assemblage, 1000 reads, repeat #3
+[614 of 1050]	10000 taxon, 10000 assemblage, 1000 reads, repeat #4
+[615 of 1050]	10000 taxon, 10000 assemblage, 1000 reads, repeat #5
+[616 of 1050]	10000 taxon, 10000 assemblage, 10000 reads, repeat #1
+[617 of 1050]	10000 taxon, 10000 assemblage, 10000 reads, repeat #2
+[618 of 1050]	10000 taxon, 10000 assemblage, 10000 reads, repeat #3
+[619 of 1050]	10000 taxon, 10000 assemblage, 10000 reads, repeat #4
+[620 of 1050]	10000 taxon, 10000 assemblage, 10000 reads, repeat #5
+[621 of 1050]	10000 taxon, 10000 assemblage, 100000 reads, repeat #1
+[622 of 1050]	10000 taxon, 10000 assemblage, 100000 reads, repeat #2
+[623 of 1050]	10000 taxon, 10000 assemblage, 100000 reads, repeat #3
+[624 of 1050]	10000 taxon, 10000 assemblage, 100000 reads, repeat #4
+[625 of 1050]	10000 taxon, 10000 assemblage, 100000 reads, repeat #5
+[626 of 1050]	10000 taxon, 10000 assemblage, 200000 reads, repeat #1
+[627 of 1050]	10000 taxon, 10000 assemblage, 200000 reads, repeat #2
+[628 of 1050]	10000 taxon, 10000 assemblage, 200000 reads, repeat #3
+[629 of 1050]	10000 taxon, 10000 assemblage, 200000 reads, repeat #4
+[630 of 1050]	10000 taxon, 10000 assemblage, 200000 reads, repeat #5
+[631 of 1050]	50000 taxon, 1 assemblage, 10 reads, repeat #1
+[632 of 1050]	50000 taxon, 1 assemblage, 10 reads, repeat #2
+[633 of 1050]	50000 taxon, 1 assemblage, 10 reads, repeat #3
+[634 of 1050]	50000 taxon, 1 assemblage, 10 reads, repeat #4
+[635 of 1050]	50000 taxon, 1 assemblage, 10 reads, repeat #5
+[636 of 1050]	50000 taxon, 1 assemblage, 100 reads, repeat #1
+[637 of 1050]	50000 taxon, 1 assemblage, 100 reads, repeat #2
+[638 of 1050]	50000 taxon, 1 assemblage, 100 reads, repeat #3
+[639 of 1050]	50000 taxon, 1 assemblage, 100 reads, repeat #4
+[640 of 1050]	50000 taxon, 1 assemblage, 100 reads, repeat #5
+[641 of 1050]	50000 taxon, 1 assemblage, 1000 reads, repeat #1
+[642 of 1050]	50000 taxon, 1 assemblage, 1000 reads, repeat #2
+[643 of 1050]	50000 taxon, 1 assemblage, 1000 reads, repeat #3
+[644 of 1050]	50000 taxon, 1 assemblage, 1000 reads, repeat #4
+[645 of 1050]	50000 taxon, 1 assemblage, 1000 reads, repeat #5
+[646 of 1050]	50000 taxon, 1 assemblage, 10000 reads, repeat #1
+[647 of 1050]	50000 taxon, 1 assemblage, 10000 reads, repeat #2
+[648 of 1050]	50000 taxon, 1 assemblage, 10000 reads, repeat #3
+[649 of 1050]	50000 taxon, 1 assemblage, 10000 reads, repeat #4
+[650 of 1050]	50000 taxon, 1 assemblage, 10000 reads, repeat #5
+[651 of 1050]	50000 taxon, 1 assemblage, 100000 reads, repeat #1
+[652 of 1050]	50000 taxon, 1 assemblage, 100000 reads, repeat #2
+[653 of 1050]	50000 taxon, 1 assemblage, 100000 reads, repeat #3
+[654 of 1050]	50000 taxon, 1 assemblage, 100000 reads, repeat #4
+[655 of 1050]	50000 taxon, 1 assemblage, 100000 reads, repeat #5
+[656 of 1050]	50000 taxon, 1 assemblage, 200000 reads, repeat #1
+[657 of 1050]	50000 taxon, 1 assemblage, 200000 reads, repeat #2
+[658 of 1050]	50000 taxon, 1 assemblage, 200000 reads, repeat #3
+[659 of 1050]	50000 taxon, 1 assemblage, 200000 reads, repeat #4
+[660 of 1050]	50000 taxon, 1 assemblage, 200000 reads, repeat #5
+[661 of 1050]	50000 taxon, 10 assemblage, 10 reads, repeat #1
+[662 of 1050]	50000 taxon, 10 assemblage, 10 reads, repeat #2
+[663 of 1050]	50000 taxon, 10 assemblage, 10 reads, repeat #3
+[664 of 1050]	50000 taxon, 10 assemblage, 10 reads, repeat #4
+[665 of 1050]	50000 taxon, 10 assemblage, 10 reads, repeat #5
+[666 of 1050]	50000 taxon, 10 assemblage, 100 reads, repeat #1
+[667 of 1050]	50000 taxon, 10 assemblage, 100 reads, repeat #2
+[668 of 1050]	50000 taxon, 10 assemblage, 100 reads, repeat #3
+[669 of 1050]	50000 taxon, 10 assemblage, 100 reads, repeat #4
+[670 of 1050]	50000 taxon, 10 assemblage, 100 reads, repeat #5
+[671 of 1050]	50000 taxon, 10 assemblage, 1000 reads, repeat #1
+[672 of 1050]	50000 taxon, 10 assemblage, 1000 reads, repeat #2
+[673 of 1050]	50000 taxon, 10 assemblage, 1000 reads, repeat #3
+[674 of 1050]	50000 taxon, 10 assemblage, 1000 reads, repeat #4
+[675 of 1050]	50000 taxon, 10 assemblage, 1000 reads, repeat #5
+[676 of 1050]	50000 taxon, 10 assemblage, 10000 reads, repeat #1
+[677 of 1050]	50000 taxon, 10 assemblage, 10000 reads, repeat #2
+[678 of 1050]	50000 taxon, 10 assemblage, 10000 reads, repeat #3
+[679 of 1050]	50000 taxon, 10 assemblage, 10000 reads, repeat #4
+[680 of 1050]	50000 taxon, 10 assemblage, 10000 reads, repeat #5
+[681 of 1050]	50000 taxon, 10 assemblage, 100000 reads, repeat #1
+[682 of 1050]	50000 taxon, 10 assemblage, 100000 reads, repeat #2
+[683 of 1050]	50000 taxon, 10 assemblage, 100000 reads, repeat #3
+[684 of 1050]	50000 taxon, 10 assemblage, 100000 reads, repeat #4
+[685 of 1050]	50000 taxon, 10 assemblage, 100000 reads, repeat #5
+[686 of 1050]	50000 taxon, 10 assemblage, 200000 reads, repeat #1
+[687 of 1050]	50000 taxon, 10 assemblage, 200000 reads, repeat #2
+[688 of 1050]	50000 taxon, 10 assemblage, 200000 reads, repeat #3
+[689 of 1050]	50000 taxon, 10 assemblage, 200000 reads, repeat #4
+[690 of 1050]	50000 taxon, 10 assemblage, 200000 reads, repeat #5
+[691 of 1050]	50000 taxon, 100 assemblage, 10 reads, repeat #1
+[692 of 1050]	50000 taxon, 100 assemblage, 10 reads, repeat #2
+[693 of 1050]	50000 taxon, 100 assemblage, 10 reads, repeat #3
+[694 of 1050]	50000 taxon, 100 assemblage, 10 reads, repeat #4
+[695 of 1050]	50000 taxon, 100 assemblage, 10 reads, repeat #5
+[696 of 1050]	50000 taxon, 100 assemblage, 100 reads, repeat #1
+[697 of 1050]	50000 taxon, 100 assemblage, 100 reads, repeat #2
+[698 of 1050]	50000 taxon, 100 assemblage, 100 reads, repeat #3
+[699 of 1050]	50000 taxon, 100 assemblage, 100 reads, repeat #4
+[700 of 1050]	50000 taxon, 100 assemblage, 100 reads, repeat #5
+[701 of 1050]	50000 taxon, 100 assemblage, 1000 reads, repeat #1
+[702 of 1050]	50000 taxon, 100 assemblage, 1000 reads, repeat #2
+[703 of 1050]	50000 taxon, 100 assemblage, 1000 reads, repeat #3
+[704 of 1050]	50000 taxon, 100 assemblage, 1000 reads, repeat #4
+[705 of 1050]	50000 taxon, 100 assemblage, 1000 reads, repeat #5
+[706 of 1050]	50000 taxon, 100 assemblage, 10000 reads, repeat #1
+[707 of 1050]	50000 taxon, 100 assemblage, 10000 reads, repeat #2
+[708 of 1050]	50000 taxon, 100 assemblage, 10000 reads, repeat #3
+[709 of 1050]	50000 taxon, 100 assemblage, 10000 reads, repeat #4
+[710 of 1050]	50000 taxon, 100 assemblage, 10000 reads, repeat #5
+[711 of 1050]	50000 taxon, 100 assemblage, 100000 reads, repeat #1
+[712 of 1050]	50000 taxon, 100 assemblage, 100000 reads, repeat #2
+[713 of 1050]	50000 taxon, 100 assemblage, 100000 reads, repeat #3
+[714 of 1050]	50000 taxon, 100 assemblage, 100000 reads, repeat #4
+[715 of 1050]	50000 taxon, 100 assemblage, 100000 reads, repeat #5
+[716 of 1050]	50000 taxon, 100 assemblage, 200000 reads, repeat #1
+[717 of 1050]	50000 taxon, 100 assemblage, 200000 reads, repeat #2
+[718 of 1050]	50000 taxon, 100 assemblage, 200000 reads, repeat #3
+[719 of 1050]	50000 taxon, 100 assemblage, 200000 reads, repeat #4
+[720 of 1050]	50000 taxon, 100 assemblage, 200000 reads, repeat #5
+[721 of 1050]	50000 taxon, 300 assemblage, 10 reads, repeat #1
+[722 of 1050]	50000 taxon, 300 assemblage, 10 reads, repeat #2
+[723 of 1050]	50000 taxon, 300 assemblage, 10 reads, repeat #3
+[724 of 1050]	50000 taxon, 300 assemblage, 10 reads, repeat #4
+[725 of 1050]	50000 taxon, 300 assemblage, 10 reads, repeat #5
+[726 of 1050]	50000 taxon, 300 assemblage, 100 reads, repeat #1
+[727 of 1050]	50000 taxon, 300 assemblage, 100 reads, repeat #2
+[728 of 1050]	50000 taxon, 300 assemblage, 100 reads, repeat #3
+[729 of 1050]	50000 taxon, 300 assemblage, 100 reads, repeat #4
+[730 of 1050]	50000 taxon, 300 assemblage, 100 reads, repeat #5
+[731 of 1050]	50000 taxon, 300 assemblage, 1000 reads, repeat #1
+[732 of 1050]	50000 taxon, 300 assemblage, 1000 reads, repeat #2
+[733 of 1050]	50000 taxon, 300 assemblage, 1000 reads, repeat #3
+[734 of 1050]	50000 taxon, 300 assemblage, 1000 reads, repeat #4
+[735 of 1050]	50000 taxon, 300 assemblage, 1000 reads, repeat #5
+[736 of 1050]	50000 taxon, 300 assemblage, 10000 reads, repeat #1
+[737 of 1050]	50000 taxon, 300 assemblage, 10000 reads, repeat #2
+[738 of 1050]	50000 taxon, 300 assemblage, 10000 reads, repeat #3
+[739 of 1050]	50000 taxon, 300 assemblage, 10000 reads, repeat #4
+[740 of 1050]	50000 taxon, 300 assemblage, 10000 reads, repeat #5
+[741 of 1050]	50000 taxon, 300 assemblage, 100000 reads, repeat #1
+[742 of 1050]	50000 taxon, 300 assemblage, 100000 reads, repeat #2
+[743 of 1050]	50000 taxon, 300 assemblage, 100000 reads, repeat #3
+[744 of 1050]	50000 taxon, 300 assemblage, 100000 reads, repeat #4
+[745 of 1050]	50000 taxon, 300 assemblage, 100000 reads, repeat #5
+[746 of 1050]	50000 taxon, 300 assemblage, 200000 reads, repeat #1
+[747 of 1050]	50000 taxon, 300 assemblage, 200000 reads, repeat #2
+[748 of 1050]	50000 taxon, 300 assemblage, 200000 reads, repeat #3
+[749 of 1050]	50000 taxon, 300 assemblage, 200000 reads, repeat #4
+[750 of 1050]	50000 taxon, 300 assemblage, 200000 reads, repeat #5
+[751 of 1050]	50000 taxon, 500 assemblage, 10 reads, repeat #1
+[752 of 1050]	50000 taxon, 500 assemblage, 10 reads, repeat #2
+[753 of 1050]	50000 taxon, 500 assemblage, 10 reads, repeat #3
+[754 of 1050]	50000 taxon, 500 assemblage, 10 reads, repeat #4
+[755 of 1050]	50000 taxon, 500 assemblage, 10 reads, repeat #5
+[756 of 1050]	50000 taxon, 500 assemblage, 100 reads, repeat #1
+[757 of 1050]	50000 taxon, 500 assemblage, 100 reads, repeat #2
+[758 of 1050]	50000 taxon, 500 assemblage, 100 reads, repeat #3
+[759 of 1050]	50000 taxon, 500 assemblage, 100 reads, repeat #4
+[760 of 1050]	50000 taxon, 500 assemblage, 100 reads, repeat #5
+[761 of 1050]	50000 taxon, 500 assemblage, 1000 reads, repeat #1
+[762 of 1050]	50000 taxon, 500 assemblage, 1000 reads, repeat #2
+[763 of 1050]	50000 taxon, 500 assemblage, 1000 reads, repeat #3
+[764 of 1050]	50000 taxon, 500 assemblage, 1000 reads, repeat #4
+[765 of 1050]	50000 taxon, 500 assemblage, 1000 reads, repeat #5
+[766 of 1050]	50000 taxon, 500 assemblage, 10000 reads, repeat #1
+[767 of 1050]	50000 taxon, 500 assemblage, 10000 reads, repeat #2
+[768 of 1050]	50000 taxon, 500 assemblage, 10000 reads, repeat #3
+[769 of 1050]	50000 taxon, 500 assemblage, 10000 reads, repeat #4
+[770 of 1050]	50000 taxon, 500 assemblage, 10000 reads, repeat #5
+[771 of 1050]	50000 taxon, 500 assemblage, 100000 reads, repeat #1
+[772 of 1050]	50000 taxon, 500 assemblage, 100000 reads, repeat #2
+[773 of 1050]	50000 taxon, 500 assemblage, 100000 reads, repeat #3
+[774 of 1050]	50000 taxon, 500 assemblage, 100000 reads, repeat #4
+[775 of 1050]	50000 taxon, 500 assemblage, 100000 reads, repeat #5
+[776 of 1050]	50000 taxon, 500 assemblage, 200000 reads, repeat #1
+[777 of 1050]	50000 taxon, 500 assemblage, 200000 reads, repeat #2
+[778 of 1050]	50000 taxon, 500 assemblage, 200000 reads, repeat #3
+[779 of 1050]	50000 taxon, 500 assemblage, 200000 reads, repeat #4
+[780 of 1050]	50000 taxon, 500 assemblage, 200000 reads, repeat #5
+[781 of 1050]	50000 taxon, 1000 assemblage, 10 reads, repeat #1
+[782 of 1050]	50000 taxon, 1000 assemblage, 10 reads, repeat #2
+[783 of 1050]	50000 taxon, 1000 assemblage, 10 reads, repeat #3
+[784 of 1050]	50000 taxon, 1000 assemblage, 10 reads, repeat #4
+[785 of 1050]	50000 taxon, 1000 assemblage, 10 reads, repeat #5
+[786 of 1050]	50000 taxon, 1000 assemblage, 100 reads, repeat #1
+[787 of 1050]	50000 taxon, 1000 assemblage, 100 reads, repeat #2
+[788 of 1050]	50000 taxon, 1000 assemblage, 100 reads, repeat #3
+[789 of 1050]	50000 taxon, 1000 assemblage, 100 reads, repeat #4
+[790 of 1050]	50000 taxon, 1000 assemblage, 100 reads, repeat #5
+[791 of 1050]	50000 taxon, 1000 assemblage, 1000 reads, repeat #1
+[792 of 1050]	50000 taxon, 1000 assemblage, 1000 reads, repeat #2
+[793 of 1050]	50000 taxon, 1000 assemblage, 1000 reads, repeat #3
+[794 of 1050]	50000 taxon, 1000 assemblage, 1000 reads, repeat #4
+[795 of 1050]	50000 taxon, 1000 assemblage, 1000 reads, repeat #5
+[796 of 1050]	50000 taxon, 1000 assemblage, 10000 reads, repeat #1
+[797 of 1050]	50000 taxon, 1000 assemblage, 10000 reads, repeat #2
+[798 of 1050]	50000 taxon, 1000 assemblage, 10000 reads, repeat #3
+[799 of 1050]	50000 taxon, 1000 assemblage, 10000 reads, repeat #4
+[800 of 1050]	50000 taxon, 1000 assemblage, 10000 reads, repeat #5
+[801 of 1050]	50000 taxon, 1000 assemblage, 100000 reads, repeat #1
+[802 of 1050]	50000 taxon, 1000 assemblage, 100000 reads, repeat #2
+[803 of 1050]	50000 taxon, 1000 assemblage, 100000 reads, repeat #3
+[804 of 1050]	50000 taxon, 1000 assemblage, 100000 reads, repeat #4
+[805 of 1050]	50000 taxon, 1000 assemblage, 100000 reads, repeat #5
+[806 of 1050]	50000 taxon, 1000 assemblage, 200000 reads, repeat #1
+[807 of 1050]	50000 taxon, 1000 assemblage, 200000 reads, repeat #2
+[808 of 1050]	50000 taxon, 1000 assemblage, 200000 reads, repeat #3
+[809 of 1050]	50000 taxon, 1000 assemblage, 200000 reads, repeat #4
+[810 of 1050]	50000 taxon, 1000 assemblage, 200000 reads, repeat #5
+[811 of 1050]	50000 taxon, 10000 assemblage, 10 reads, repeat #1
+[812 of 1050]	50000 taxon, 10000 assemblage, 10 reads, repeat #2
+[813 of 1050]	50000 taxon, 10000 assemblage, 10 reads, repeat #3
+[814 of 1050]	50000 taxon, 10000 assemblage, 10 reads, repeat #4
+[815 of 1050]	50000 taxon, 10000 assemblage, 10 reads, repeat #5
+[816 of 1050]	50000 taxon, 10000 assemblage, 100 reads, repeat #1
+[817 of 1050]	50000 taxon, 10000 assemblage, 100 reads, repeat #2
+[818 of 1050]	50000 taxon, 10000 assemblage, 100 reads, repeat #3
+[819 of 1050]	50000 taxon, 10000 assemblage, 100 reads, repeat #4
+[820 of 1050]	50000 taxon, 10000 assemblage, 100 reads, repeat #5
+[821 of 1050]	50000 taxon, 10000 assemblage, 1000 reads, repeat #1
+[822 of 1050]	50000 taxon, 10000 assemblage, 1000 reads, repeat #2
+[823 of 1050]	50000 taxon, 10000 assemblage, 1000 reads, repeat #3
+[824 of 1050]	50000 taxon, 10000 assemblage, 1000 reads, repeat #4
+[825 of 1050]	50000 taxon, 10000 assemblage, 1000 reads, repeat #5
+[826 of 1050]	50000 taxon, 10000 assemblage, 10000 reads, repeat #1
+[827 of 1050]	50000 taxon, 10000 assemblage, 10000 reads, repeat #2
+[828 of 1050]	50000 taxon, 10000 assemblage, 10000 reads, repeat #3
+[829 of 1050]	50000 taxon, 10000 assemblage, 10000 reads, repeat #4
+[830 of 1050]	50000 taxon, 10000 assemblage, 10000 reads, repeat #5
+[831 of 1050]	50000 taxon, 10000 assemblage, 100000 reads, repeat #1
+[832 of 1050]	50000 taxon, 10000 assemblage, 100000 reads, repeat #2
+[833 of 1050]	50000 taxon, 10000 assemblage, 100000 reads, repeat #3
+[834 of 1050]	50000 taxon, 10000 assemblage, 100000 reads, repeat #4
+[835 of 1050]	50000 taxon, 10000 assemblage, 100000 reads, repeat #5
+[836 of 1050]	50000 taxon, 10000 assemblage, 200000 reads, repeat #1
+[837 of 1050]	50000 taxon, 10000 assemblage, 200000 reads, repeat #2
+[838 of 1050]	50000 taxon, 10000 assemblage, 200000 reads, repeat #3
+[839 of 1050]	50000 taxon, 10000 assemblage, 200000 reads, repeat #4
+[840 of 1050]	50000 taxon, 10000 assemblage, 200000 reads, repeat #5
+[841 of 1050]	100000 taxon, 1 assemblage, 10 reads, repeat #1
+[842 of 1050]	100000 taxon, 1 assemblage, 10 reads, repeat #2
+[843 of 1050]	100000 taxon, 1 assemblage, 10 reads, repeat #3
+[844 of 1050]	100000 taxon, 1 assemblage, 10 reads, repeat #4
+[845 of 1050]	100000 taxon, 1 assemblage, 10 reads, repeat #5
+[846 of 1050]	100000 taxon, 1 assemblage, 100 reads, repeat #1
+[847 of 1050]	100000 taxon, 1 assemblage, 100 reads, repeat #2
+[848 of 1050]	100000 taxon, 1 assemblage, 100 reads, repeat #3
+[849 of 1050]	100000 taxon, 1 assemblage, 100 reads, repeat #4
+[850 of 1050]	100000 taxon, 1 assemblage, 100 reads, repeat #5
+[851 of 1050]	100000 taxon, 1 assemblage, 1000 reads, repeat #1
+[852 of 1050]	100000 taxon, 1 assemblage, 1000 reads, repeat #2
+[853 of 1050]	100000 taxon, 1 assemblage, 1000 reads, repeat #3
+[854 of 1050]	100000 taxon, 1 assemblage, 1000 reads, repeat #4
+[855 of 1050]	100000 taxon, 1 assemblage, 1000 reads, repeat #5
+[856 of 1050]	100000 taxon, 1 assemblage, 10000 reads, repeat #1
+[857 of 1050]	100000 taxon, 1 assemblage, 10000 reads, repeat #2
+[858 of 1050]	100000 taxon, 1 assemblage, 10000 reads, repeat #3
+[859 of 1050]	100000 taxon, 1 assemblage, 10000 reads, repeat #4
+[860 of 1050]	100000 taxon, 1 assemblage, 10000 reads, repeat #5
+[861 of 1050]	100000 taxon, 1 assemblage, 100000 reads, repeat #1
+[862 of 1050]	100000 taxon, 1 assemblage, 100000 reads, repeat #2
+[863 of 1050]	100000 taxon, 1 assemblage, 100000 reads, repeat #3
+[864 of 1050]	100000 taxon, 1 assemblage, 100000 reads, repeat #4
+[865 of 1050]	100000 taxon, 1 assemblage, 100000 reads, repeat #5
+[866 of 1050]	100000 taxon, 1 assemblage, 200000 reads, repeat #1
+[867 of 1050]	100000 taxon, 1 assemblage, 200000 reads, repeat #2
+[868 of 1050]	100000 taxon, 1 assemblage, 200000 reads, repeat #3
+[869 of 1050]	100000 taxon, 1 assemblage, 200000 reads, repeat #4
+[870 of 1050]	100000 taxon, 1 assemblage, 200000 reads, repeat #5
+[871 of 1050]	100000 taxon, 10 assemblage, 10 reads, repeat #1
+[872 of 1050]	100000 taxon, 10 assemblage, 10 reads, repeat #2
+[873 of 1050]	100000 taxon, 10 assemblage, 10 reads, repeat #3
+[874 of 1050]	100000 taxon, 10 assemblage, 10 reads, repeat #4
+[875 of 1050]	100000 taxon, 10 assemblage, 10 reads, repeat #5
+[876 of 1050]	100000 taxon, 10 assemblage, 100 reads, repeat #1
+[877 of 1050]	100000 taxon, 10 assemblage, 100 reads, repeat #2
+[878 of 1050]	100000 taxon, 10 assemblage, 100 reads, repeat #3
+[879 of 1050]	100000 taxon, 10 assemblage, 100 reads, repeat #4
+[880 of 1050]	100000 taxon, 10 assemblage, 100 reads, repeat #5
+[881 of 1050]	100000 taxon, 10 assemblage, 1000 reads, repeat #1
+[882 of 1050]	100000 taxon, 10 assemblage, 1000 reads, repeat #2
+[883 of 1050]	100000 taxon, 10 assemblage, 1000 reads, repeat #3
+[884 of 1050]	100000 taxon, 10 assemblage, 1000 reads, repeat #4
+[885 of 1050]	100000 taxon, 10 assemblage, 1000 reads, repeat #5
+[886 of 1050]	100000 taxon, 10 assemblage, 10000 reads, repeat #1
+[887 of 1050]	100000 taxon, 10 assemblage, 10000 reads, repeat #2
+[888 of 1050]	100000 taxon, 10 assemblage, 10000 reads, repeat #3
+[889 of 1050]	100000 taxon, 10 assemblage, 10000 reads, repeat #4
+[890 of 1050]	100000 taxon, 10 assemblage, 10000 reads, repeat #5
+[891 of 1050]	100000 taxon, 10 assemblage, 100000 reads, repeat #1
+[892 of 1050]	100000 taxon, 10 assemblage, 100000 reads, repeat #2
+[893 of 1050]	100000 taxon, 10 assemblage, 100000 reads, repeat #3
+[894 of 1050]	100000 taxon, 10 assemblage, 100000 reads, repeat #4
+[895 of 1050]	100000 taxon, 10 assemblage, 100000 reads, repeat #5
+[896 of 1050]	100000 taxon, 10 assemblage, 200000 reads, repeat #1
+[897 of 1050]	100000 taxon, 10 assemblage, 200000 reads, repeat #2
+[898 of 1050]	100000 taxon, 10 assemblage, 200000 reads, repeat #3
+[899 of 1050]	100000 taxon, 10 assemblage, 200000 reads, repeat #4
+[900 of 1050]	100000 taxon, 10 assemblage, 200000 reads, repeat #5
+[901 of 1050]	100000 taxon, 100 assemblage, 10 reads, repeat #1
+[902 of 1050]	100000 taxon, 100 assemblage, 10 reads, repeat #2
+[903 of 1050]	100000 taxon, 100 assemblage, 10 reads, repeat #3
+[904 of 1050]	100000 taxon, 100 assemblage, 10 reads, repeat #4
+[905 of 1050]	100000 taxon, 100 assemblage, 10 reads, repeat #5
+[906 of 1050]	100000 taxon, 100 assemblage, 100 reads, repeat #1
+[907 of 1050]	100000 taxon, 100 assemblage, 100 reads, repeat #2
+[908 of 1050]	100000 taxon, 100 assemblage, 100 reads, repeat #3
+[909 of 1050]	100000 taxon, 100 assemblage, 100 reads, repeat #4
+[910 of 1050]	100000 taxon, 100 assemblage, 100 reads, repeat #5
+[911 of 1050]	100000 taxon, 100 assemblage, 1000 reads, repeat #1
+[912 of 1050]	100000 taxon, 100 assemblage, 1000 reads, repeat #2
+[913 of 1050]	100000 taxon, 100 assemblage, 1000 reads, repeat #3
+[914 of 1050]	100000 taxon, 100 assemblage, 1000 reads, repeat #4
+[915 of 1050]	100000 taxon, 100 assemblage, 1000 reads, repeat #5
+[916 of 1050]	100000 taxon, 100 assemblage, 10000 reads, repeat #1
+[917 of 1050]	100000 taxon, 100 assemblage, 10000 reads, repeat #2
+[918 of 1050]	100000 taxon, 100 assemblage, 10000 reads, repeat #3
+[919 of 1050]	100000 taxon, 100 assemblage, 10000 reads, repeat #4
+[920 of 1050]	100000 taxon, 100 assemblage, 10000 reads, repeat #5
+[921 of 1050]	100000 taxon, 100 assemblage, 100000 reads, repeat #1
+[922 of 1050]	100000 taxon, 100 assemblage, 100000 reads, repeat #2
+[923 of 1050]	100000 taxon, 100 assemblage, 100000 reads, repeat #3
+[924 of 1050]	100000 taxon, 100 assemblage, 100000 reads, repeat #4
+[925 of 1050]	100000 taxon, 100 assemblage, 100000 reads, repeat #5
+[926 of 1050]	100000 taxon, 100 assemblage, 200000 reads, repeat #1
+[927 of 1050]	100000 taxon, 100 assemblage, 200000 reads, repeat #2
+[928 of 1050]	100000 taxon, 100 assemblage, 200000 reads, repeat #3
+[929 of 1050]	100000 taxon, 100 assemblage, 200000 reads, repeat #4
+[930 of 1050]	100000 taxon, 100 assemblage, 200000 reads, repeat #5
+[931 of 1050]	100000 taxon, 300 assemblage, 10 reads, repeat #1
+[932 of 1050]	100000 taxon, 300 assemblage, 10 reads, repeat #2
+[933 of 1050]	100000 taxon, 300 assemblage, 10 reads, repeat #3
+[934 of 1050]	100000 taxon, 300 assemblage, 10 reads, repeat #4
+[935 of 1050]	100000 taxon, 300 assemblage, 10 reads, repeat #5
+[936 of 1050]	100000 taxon, 300 assemblage, 100 reads, repeat #1
+[937 of 1050]	100000 taxon, 300 assemblage, 100 reads, repeat #2
+[938 of 1050]	100000 taxon, 300 assemblage, 100 reads, repeat #3
+[939 of 1050]	100000 taxon, 300 assemblage, 100 reads, repeat #4
+[940 of 1050]	100000 taxon, 300 assemblage, 100 reads, repeat #5
+[941 of 1050]	100000 taxon, 300 assemblage, 1000 reads, repeat #1
+[942 of 1050]	100000 taxon, 300 assemblage, 1000 reads, repeat #2
+[943 of 1050]	100000 taxon, 300 assemblage, 1000 reads, repeat #3
+[944 of 1050]	100000 taxon, 300 assemblage, 1000 reads, repeat #4
+[945 of 1050]	100000 taxon, 300 assemblage, 1000 reads, repeat #5
+[946 of 1050]	100000 taxon, 300 assemblage, 10000 reads, repeat #1
+[947 of 1050]	100000 taxon, 300 assemblage, 10000 reads, repeat #2
+[948 of 1050]	100000 taxon, 300 assemblage, 10000 reads, repeat #3
+[949 of 1050]	100000 taxon, 300 assemblage, 10000 reads, repeat #4
+[950 of 1050]	100000 taxon, 300 assemblage, 10000 reads, repeat #5
+[951 of 1050]	100000 taxon, 300 assemblage, 100000 reads, repeat #1
+[952 of 1050]	100000 taxon, 300 assemblage, 100000 reads, repeat #2
+[953 of 1050]	100000 taxon, 300 assemblage, 100000 reads, repeat #3
+[954 of 1050]	100000 taxon, 300 assemblage, 100000 reads, repeat #4
+[955 of 1050]	100000 taxon, 300 assemblage, 100000 reads, repeat #5
+[956 of 1050]	100000 taxon, 300 assemblage, 200000 reads, repeat #1
+[957 of 1050]	100000 taxon, 300 assemblage, 200000 reads, repeat #2
+[958 of 1050]	100000 taxon, 300 assemblage, 200000 reads, repeat #3
+[959 of 1050]	100000 taxon, 300 assemblage, 200000 reads, repeat #4
+[960 of 1050]	100000 taxon, 300 assemblage, 200000 reads, repeat #5
+[961 of 1050]	100000 taxon, 500 assemblage, 10 reads, repeat #1
+[962 of 1050]	100000 taxon, 500 assemblage, 10 reads, repeat #2
+[963 of 1050]	100000 taxon, 500 assemblage, 10 reads, repeat #3
+[964 of 1050]	100000 taxon, 500 assemblage, 10 reads, repeat #4
+[965 of 1050]	100000 taxon, 500 assemblage, 10 reads, repeat #5
+[966 of 1050]	100000 taxon, 500 assemblage, 100 reads, repeat #1
+[967 of 1050]	100000 taxon, 500 assemblage, 100 reads, repeat #2
+[968 of 1050]	100000 taxon, 500 assemblage, 100 reads, repeat #3
+[969 of 1050]	100000 taxon, 500 assemblage, 100 reads, repeat #4
+[970 of 1050]	100000 taxon, 500 assemblage, 100 reads, repeat #5
+[971 of 1050]	100000 taxon, 500 assemblage, 1000 reads, repeat #1
+[972 of 1050]	100000 taxon, 500 assemblage, 1000 reads, repeat #2
+[973 of 1050]	100000 taxon, 500 assemblage, 1000 reads, repeat #3
+[974 of 1050]	100000 taxon, 500 assemblage, 1000 reads, repeat #4
+[975 of 1050]	100000 taxon, 500 assemblage, 1000 reads, repeat #5
+[976 of 1050]	100000 taxon, 500 assemblage, 10000 reads, repeat #1
+[977 of 1050]	100000 taxon, 500 assemblage, 10000 reads, repeat #2
+[978 of 1050]	100000 taxon, 500 assemblage, 10000 reads, repeat #3
+[979 of 1050]	100000 taxon, 500 assemblage, 10000 reads, repeat #4
+[980 of 1050]	100000 taxon, 500 assemblage, 10000 reads, repeat #5
+[981 of 1050]	100000 taxon, 500 assemblage, 100000 reads, repeat #1
+[982 of 1050]	100000 taxon, 500 assemblage, 100000 reads, repeat #2
+[983 of 1050]	100000 taxon, 500 assemblage, 100000 reads, repeat #3
+[984 of 1050]	100000 taxon, 500 assemblage, 100000 reads, repeat #4
+[985 of 1050]	100000 taxon, 500 assemblage, 100000 reads, repeat #5
+[986 of 1050]	100000 taxon, 500 assemblage, 200000 reads, repeat #1
+[987 of 1050]	100000 taxon, 500 assemblage, 200000 reads, repeat #2
+[988 of 1050]	100000 taxon, 500 assemblage, 200000 reads, repeat #3
+[989 of 1050]	100000 taxon, 500 assemblage, 200000 reads, repeat #4
+[990 of 1050]	100000 taxon, 500 assemblage, 200000 reads, repeat #5
+[991 of 1050]	100000 taxon, 1000 assemblage, 10 reads, repeat #1
+[992 of 1050]	100000 taxon, 1000 assemblage, 10 reads, repeat #2
+[993 of 1050]	100000 taxon, 1000 assemblage, 10 reads, repeat #3
+[994 of 1050]	100000 taxon, 1000 assemblage, 10 reads, repeat #4
+[995 of 1050]	100000 taxon, 1000 assemblage, 10 reads, repeat #5
+[996 of 1050]	100000 taxon, 1000 assemblage, 100 reads, repeat #1
+[997 of 1050]	100000 taxon, 1000 assemblage, 100 reads, repeat #2
+[998 of 1050]	100000 taxon, 1000 assemblage, 100 reads, repeat #3
+[999 of 1050]	100000 taxon, 1000 assemblage, 100 reads, repeat #4
+[1000 of 1050]	100000 taxon, 1000 assemblage, 100 reads, repeat #5
+[1001 of 1050]	100000 taxon, 1000 assemblage, 1000 reads, repeat #1
+[1002 of 1050]	100000 taxon, 1000 assemblage, 1000 reads, repeat #2
+[1003 of 1050]	100000 taxon, 1000 assemblage, 1000 reads, repeat #3
+[1004 of 1050]	100000 taxon, 1000 assemblage, 1000 reads, repeat #4
+[1005 of 1050]	100000 taxon, 1000 assemblage, 1000 reads, repeat #5
+[1006 of 1050]	100000 taxon, 1000 assemblage, 10000 reads, repeat #1
+[1007 of 1050]	100000 taxon, 1000 assemblage, 10000 reads, repeat #2
+[1008 of 1050]	100000 taxon, 1000 assemblage, 10000 reads, repeat #3
+[1009 of 1050]	100000 taxon, 1000 assemblage, 10000 reads, repeat #4
+[1010 of 1050]	100000 taxon, 1000 assemblage, 10000 reads, repeat #5
+[1011 of 1050]	100000 taxon, 1000 assemblage, 100000 reads, repeat #1
+[1012 of 1050]	100000 taxon, 1000 assemblage, 100000 reads, repeat #2
+[1013 of 1050]	100000 taxon, 1000 assemblage, 100000 reads, repeat #3
+[1014 of 1050]	100000 taxon, 1000 assemblage, 100000 reads, repeat #4
+[1015 of 1050]	100000 taxon, 1000 assemblage, 100000 reads, repeat #5
+[1016 of 1050]	100000 taxon, 1000 assemblage, 200000 reads, repeat #1
+[1017 of 1050]	100000 taxon, 1000 assemblage, 200000 reads, repeat #2
+[1018 of 1050]	100000 taxon, 1000 assemblage, 200000 reads, repeat #3
+[1019 of 1050]	100000 taxon, 1000 assemblage, 200000 reads, repeat #4
+[1020 of 1050]	100000 taxon, 1000 assemblage, 200000 reads, repeat #5
+[1021 of 1050]	100000 taxon, 10000 assemblage, 10 reads, repeat #1
+[1022 of 1050]	100000 taxon, 10000 assemblage, 10 reads, repeat #2
+[1023 of 1050]	100000 taxon, 10000 assemblage, 10 reads, repeat #3
+[1024 of 1050]	100000 taxon, 10000 assemblage, 10 reads, repeat #4
+[1025 of 1050]	100000 taxon, 10000 assemblage, 10 reads, repeat #5
+[1026 of 1050]	100000 taxon, 10000 assemblage, 100 reads, repeat #1
+[1027 of 1050]	100000 taxon, 10000 assemblage, 100 reads, repeat #2
+[1028 of 1050]	100000 taxon, 10000 assemblage, 100 reads, repeat #3
+[1029 of 1050]	100000 taxon, 10000 assemblage, 100 reads, repeat #4
+[1030 of 1050]	100000 taxon, 10000 assemblage, 100 reads, repeat #5
+[1031 of 1050]	100000 taxon, 10000 assemblage, 1000 reads, repeat #1
+[1032 of 1050]	100000 taxon, 10000 assemblage, 1000 reads, repeat #2
+[1033 of 1050]	100000 taxon, 10000 assemblage, 1000 reads, repeat #3
+[1034 of 1050]	100000 taxon, 10000 assemblage, 1000 reads, repeat #4
+[1035 of 1050]	100000 taxon, 10000 assemblage, 1000 reads, repeat #5
+[1036 of 1050]	100000 taxon, 10000 assemblage, 10000 reads, repeat #1
+[1037 of 1050]	100000 taxon, 10000 assemblage, 10000 reads, repeat #2
+[1038 of 1050]	100000 taxon, 10000 assemblage, 10000 reads, repeat #3
+[1039 of 1050]	100000 taxon, 10000 assemblage, 10000 reads, repeat #4
+[1040 of 1050]	100000 taxon, 10000 assemblage, 10000 reads, repeat #5
+[1041 of 1050]	100000 taxon, 10000 assemblage, 100000 reads, repeat #1
+[1042 of 1050]	100000 taxon, 10000 assemblage, 100000 reads, repeat #2
+[1043 of 1050]	100000 taxon, 10000 assemblage, 100000 reads, repeat #3
+[1044 of 1050]	100000 taxon, 10000 assemblage, 100000 reads, repeat #4
+[1045 of 1050]	100000 taxon, 10000 assemblage, 100000 reads, repeat #5
+[1046 of 1050]	100000 taxon, 10000 assemblage, 200000 reads, repeat #1
+[1047 of 1050]	100000 taxon, 10000 assemblage, 200000 reads, repeat #2
+[1048 of 1050]	100000 taxon, 10000 assemblage, 200000 reads, repeat #3
+[1049 of 1050]	100000 taxon, 10000 assemblage, 200000 reads, repeat #4
+[1050 of 1050]	100000 taxon, 10000 assemblage, 200000 reads, repeat #5

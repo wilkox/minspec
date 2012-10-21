@@ -8,7 +8,7 @@ my $j = 5;
 my $total = @taxa * @assem * @reads * $j;
 my $count = 0;
 
-die unless open(OUT, ">results.csv");
+die unless open(OUT, ">../autovalidate_output/raw.csv");
 print OUT "number of taxa\tsize of assemblage\tnumber of reads\tfalse positive\tfalse negative\tminspec false negative";
 foreach my $taxnum (@taxa) {
   foreach my $assemnum (@assem) {

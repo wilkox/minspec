@@ -9,5 +9,6 @@
 #$ -M david@wilkox.org
 #$ -pe smp 8
 #
-###################
-perl thesis.pl 2>&1 > autovalidate.log
+##################
+perl autovalidate.pl;
+perl getmean.pl < ../autovalidate_output/raw.csv > ../autovalidate_output/mean.csv
