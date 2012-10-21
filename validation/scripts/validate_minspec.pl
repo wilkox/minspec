@@ -175,7 +175,7 @@ until ($read == $numberOfReads) {
 
 	++$read;
 }
-my $falseTaxa = keys(%falseTaxa);
+my $falseTaxa = keys(%falseTaxa) = 0 ? 0 : keys(%falseTaxa);
 
 close OUT;
 
@@ -195,7 +195,7 @@ print "\nSTEP 5 - comparing minspec-determined minimal set to actual assemblage"
 my @minspecOutput = split(/\n/, `cat ../minspec_output/validation_minspec_output.list`);
 
 #go though output and compare to assemblage
-my $removedCorrectly;
+my $removedCorrectly = 0;
 foreach (@minspecOutput) {
 	$_ =~ /^(\S+)\t([1|0])$/;
 	my $taxon = $1;
