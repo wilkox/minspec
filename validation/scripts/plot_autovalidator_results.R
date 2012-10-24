@@ -5,6 +5,9 @@ attach(data)
 #load scatterplot3d library
 library(scatterplot3d)
 
+#force non-exponental notation on axis labels
+options(scipen=3)
+
 #plot false positives
 pdf("../plots/falsepositive.pdf")
 s3d = scatterplot3d(number.of.reads, assemblage.taxa, false.positive, pch=16, highlight.3d=TRUE, type="h", main="False Positive", xlab = "Number of reads", ylab = "Assemblage / All Taxa", zlab = "False Positive Rate")
