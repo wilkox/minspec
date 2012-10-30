@@ -1,0 +1,274 @@
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `module'
+
+[1 of 1225]	100 taxon, 1 assemblage, 10 reads, repeat #1
+[2 of 1225]	100 taxon, 1 assemblage, 10 reads, repeat #2
+[3 of 1225]	100 taxon, 1 assemblage, 10 reads, repeat #3
+[4 of 1225]	100 taxon, 1 assemblage, 10 reads, repeat #4
+[5 of 1225]	100 taxon, 1 assemblage, 10 reads, repeat #5
+[6 of 1225]	100 taxon, 1 assemblage, 100 reads, repeat #1
+[7 of 1225]	100 taxon, 1 assemblage, 100 reads, repeat #2
+[8 of 1225]	100 taxon, 1 assemblage, 100 reads, repeat #3
+[9 of 1225]	100 taxon, 1 assemblage, 100 reads, repeat #4
+[10 of 1225]	100 taxon, 1 assemblage, 100 reads, repeat #5
+[11 of 1225]	100 taxon, 1 assemblage, 1000 reads, repeat #1
+[12 of 1225]	100 taxon, 1 assemblage, 1000 reads, repeat #2
+[13 of 1225]	100 taxon, 1 assemblage, 1000 reads, repeat #3
+[14 of 1225]	100 taxon, 1 assemblage, 1000 reads, repeat #4
+[15 of 1225]	100 taxon, 1 assemblage, 1000 reads, repeat #5
+[16 of 1225]	100 taxon, 1 assemblage, 10000 reads, repeat #1
+[17 of 1225]	100 taxon, 1 assemblage, 10000 reads, repeat #2
+[18 of 1225]	100 taxon, 1 assemblage, 10000 reads, repeat #3
+[19 of 1225]	100 taxon, 1 assemblage, 10000 reads, repeat #4
+[20 of 1225]	100 taxon, 1 assemblage, 10000 reads, repeat #5
+[21 of 1225]	100 taxon, 1 assemblage, 100000 reads, repeat #1
+[22 of 1225]	100 taxon, 1 assemblage, 100000 reads, repeat #2
+[23 of 1225]	100 taxon, 1 assemblage, 100000 reads, repeat #3
+[24 of 1225]	100 taxon, 1 assemblage, 100000 reads, repeat #4
+[25 of 1225]	100 taxon, 1 assemblage, 100000 reads, repeat #5
+[26 of 1225]	100 taxon, 1 assemblage, 200000 reads, repeat #1
+[27 of 1225]	100 taxon, 1 assemblage, 200000 reads, repeat #2
+[28 of 1225]	100 taxon, 1 assemblage, 200000 reads, repeat #3
+[29 of 1225]	100 taxon, 1 assemblage, 200000 reads, repeat #4
+[30 of 1225]	100 taxon, 1 assemblage, 200000 reads, repeat #5
+[31 of 1225]	100 taxon, 1 assemblage, 500000 reads, repeat #1
+[32 of 1225]	100 taxon, 1 assemblage, 500000 reads, repeat #2
+[33 of 1225]	100 taxon, 1 assemblage, 500000 reads, repeat #3
+[34 of 1225]	100 taxon, 1 assemblage, 500000 reads, repeat #4
+[35 of 1225]	100 taxon, 1 assemblage, 500000 reads, repeat #5
+[36 of 1225]	100 taxon, 10 assemblage, 10 reads, repeat #1
+[37 of 1225]	100 taxon, 10 assemblage, 10 reads, repeat #2
+[38 of 1225]	100 taxon, 10 assemblage, 10 reads, repeat #3
+[39 of 1225]	100 taxon, 10 assemblage, 10 reads, repeat #4
+[40 of 1225]	100 taxon, 10 assemblage, 10 reads, repeat #5
+[41 of 1225]	100 taxon, 10 assemblage, 100 reads, repeat #1
+[42 of 1225]	100 taxon, 10 assemblage, 100 reads, repeat #2
+[43 of 1225]	100 taxon, 10 assemblage, 100 reads, repeat #3
+[44 of 1225]	100 taxon, 10 assemblage, 100 reads, repeat #4
+[45 of 1225]	100 taxon, 10 assemblage, 100 reads, repeat #5
+[46 of 1225]	100 taxon, 10 assemblage, 1000 reads, repeat #1
+[47 of 1225]	100 taxon, 10 assemblage, 1000 reads, repeat #2
+[48 of 1225]	100 taxon, 10 assemblage, 1000 reads, repeat #3
+[49 of 1225]	100 taxon, 10 assemblage, 1000 reads, repeat #4
+[50 of 1225]	100 taxon, 10 assemblage, 1000 reads, repeat #5
+[51 of 1225]	100 taxon, 10 assemblage, 10000 reads, repeat #1
+[52 of 1225]	100 taxon, 10 assemblage, 10000 reads, repeat #2
+[53 of 1225]	100 taxon, 10 assemblage, 10000 reads, repeat #3
+[54 of 1225]	100 taxon, 10 assemblage, 10000 reads, repeat #4
+[55 of 1225]	100 taxon, 10 assemblage, 10000 reads, repeat #5
+[56 of 1225]	100 taxon, 10 assemblage, 100000 reads, repeat #1
+[57 of 1225]	100 taxon, 10 assemblage, 100000 reads, repeat #2
+[58 of 1225]	100 taxon, 10 assemblage, 100000 reads, repeat #3
+[59 of 1225]	100 taxon, 10 assemblage, 100000 reads, repeat #4
+[60 of 1225]	100 taxon, 10 assemblage, 100000 reads, repeat #5
+[61 of 1225]	100 taxon, 10 assemblage, 200000 reads, repeat #1
+[62 of 1225]	100 taxon, 10 assemblage, 200000 reads, repeat #2
+[63 of 1225]	100 taxon, 10 assemblage, 200000 reads, repeat #3
+[64 of 1225]	100 taxon, 10 assemblage, 200000 reads, repeat #4
+[65 of 1225]	100 taxon, 10 assemblage, 200000 reads, repeat #5
+[66 of 1225]	100 taxon, 10 assemblage, 500000 reads, repeat #1
+[67 of 1225]	100 taxon, 10 assemblage, 500000 reads, repeat #2
+[68 of 1225]	100 taxon, 10 assemblage, 500000 reads, repeat #3
+[69 of 1225]	100 taxon, 10 assemblage, 500000 reads, repeat #4
+[70 of 1225]	100 taxon, 10 assemblage, 500000 reads, repeat #5
+[71 of 1225]	100 taxon, 100 assemblage, 10 reads, repeat #1
+[72 of 1225]	100 taxon, 100 assemblage, 10 reads, repeat #2
+[73 of 1225]	100 taxon, 100 assemblage, 10 reads, repeat #3
+[74 of 1225]	100 taxon, 100 assemblage, 10 reads, repeat #4
+[75 of 1225]	100 taxon, 100 assemblage, 10 reads, repeat #5
+[76 of 1225]	100 taxon, 100 assemblage, 100 reads, repeat #1
+[77 of 1225]	100 taxon, 100 assemblage, 100 reads, repeat #2
+[78 of 1225]	100 taxon, 100 assemblage, 100 reads, repeat #3
+[79 of 1225]	100 taxon, 100 assemblage, 100 reads, repeat #4
+[80 of 1225]	100 taxon, 100 assemblage, 100 reads, repeat #5
+[81 of 1225]	100 taxon, 100 assemblage, 1000 reads, repeat #1
+[82 of 1225]	100 taxon, 100 assemblage, 1000 reads, repeat #2
+[83 of 1225]	100 taxon, 100 assemblage, 1000 reads, repeat #3
+[84 of 1225]	100 taxon, 100 assemblage, 1000 reads, repeat #4
+[85 of 1225]	100 taxon, 100 assemblage, 1000 reads, repeat #5
+[86 of 1225]	100 taxon, 100 assemblage, 10000 reads, repeat #1
+[87 of 1225]	100 taxon, 100 assemblage, 10000 reads, repeat #2
+[88 of 1225]	100 taxon, 100 assemblage, 10000 reads, repeat #3
+[89 of 1225]	100 taxon, 100 assemblage, 10000 reads, repeat #4
+[90 of 1225]	100 taxon, 100 assemblage, 10000 reads, repeat #5
+[91 of 1225]	100 taxon, 100 assemblage, 100000 reads, repeat #1
+[92 of 1225]	100 taxon, 100 assemblage, 100000 reads, repeat #2
+[93 of 1225]	100 taxon, 100 assemblage, 100000 reads, repeat #3
+[94 of 1225]	100 taxon, 100 assemblage, 100000 reads, repeat #4
+[95 of 1225]	100 taxon, 100 assemblage, 100000 reads, repeat #5
+[96 of 1225]	100 taxon, 100 assemblage, 200000 reads, repeat #1
+[97 of 1225]	100 taxon, 100 assemblage, 200000 reads, repeat #2
+[98 of 1225]	100 taxon, 100 assemblage, 200000 reads, repeat #3
+[99 of 1225]	100 taxon, 100 assemblage, 200000 reads, repeat #4
+[100 of 1225]	100 taxon, 100 assemblage, 200000 reads, repeat #5
+[101 of 1225]	100 taxon, 100 assemblage, 500000 reads, repeat #1
+[102 of 1225]	100 taxon, 100 assemblage, 500000 reads, repeat #2
+[103 of 1225]	100 taxon, 100 assemblage, 500000 reads, repeat #3
+[104 of 1225]	100 taxon, 100 assemblage, 500000 reads, repeat #4
+[105 of 1225]	100 taxon, 100 assemblage, 500000 reads, repeat #5
+[106 of 1225]	100 taxon, 300 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[107 of 1225]	100 taxon, 300 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[108 of 1225]	100 taxon, 300 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[109 of 1225]	100 taxon, 300 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[110 of 1225]	100 taxon, 300 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[111 of 1225]	100 taxon, 300 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[112 of 1225]	100 taxon, 300 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[113 of 1225]	100 taxon, 300 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[114 of 1225]	100 taxon, 300 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[115 of 1225]	100 taxon, 300 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[116 of 1225]	100 taxon, 300 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[117 of 1225]	100 taxon, 300 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[118 of 1225]	100 taxon, 300 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[119 of 1225]	100 taxon, 300 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[120 of 1225]	100 taxon, 300 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[121 of 1225]	100 taxon, 300 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[122 of 1225]	100 taxon, 300 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[123 of 1225]	100 taxon, 300 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[124 of 1225]	100 taxon, 300 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[125 of 1225]	100 taxon, 300 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[126 of 1225]	100 taxon, 300 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[127 of 1225]	100 taxon, 300 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[128 of 1225]	100 taxon, 300 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[129 of 1225]	100 taxon, 300 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[130 of 1225]	100 taxon, 300 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[131 of 1225]	100 taxon, 300 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[132 of 1225]	100 taxon, 300 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[133 of 1225]	100 taxon, 300 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[134 of 1225]	100 taxon, 300 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[135 of 1225]	100 taxon, 300 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[136 of 1225]	100 taxon, 300 assemblage, 500000 reads, repeat #1 - SKIPPING for assem < taxa
+[137 of 1225]	100 taxon, 300 assemblage, 500000 reads, repeat #2 - SKIPPING for assem < taxa
+[138 of 1225]	100 taxon, 300 assemblage, 500000 reads, repeat #3 - SKIPPING for assem < taxa
+[139 of 1225]	100 taxon, 300 assemblage, 500000 reads, repeat #4 - SKIPPING for assem < taxa
+[140 of 1225]	100 taxon, 300 assemblage, 500000 reads, repeat #5 - SKIPPING for assem < taxa
+[141 of 1225]	100 taxon, 500 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[142 of 1225]	100 taxon, 500 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[143 of 1225]	100 taxon, 500 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[144 of 1225]	100 taxon, 500 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[145 of 1225]	100 taxon, 500 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[146 of 1225]	100 taxon, 500 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[147 of 1225]	100 taxon, 500 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[148 of 1225]	100 taxon, 500 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[149 of 1225]	100 taxon, 500 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[150 of 1225]	100 taxon, 500 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[151 of 1225]	100 taxon, 500 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[152 of 1225]	100 taxon, 500 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[153 of 1225]	100 taxon, 500 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[154 of 1225]	100 taxon, 500 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[155 of 1225]	100 taxon, 500 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[156 of 1225]	100 taxon, 500 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[157 of 1225]	100 taxon, 500 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[158 of 1225]	100 taxon, 500 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[159 of 1225]	100 taxon, 500 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[160 of 1225]	100 taxon, 500 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[161 of 1225]	100 taxon, 500 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[162 of 1225]	100 taxon, 500 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[163 of 1225]	100 taxon, 500 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[164 of 1225]	100 taxon, 500 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[165 of 1225]	100 taxon, 500 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[166 of 1225]	100 taxon, 500 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[167 of 1225]	100 taxon, 500 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[168 of 1225]	100 taxon, 500 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[169 of 1225]	100 taxon, 500 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[170 of 1225]	100 taxon, 500 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[171 of 1225]	100 taxon, 500 assemblage, 500000 reads, repeat #1 - SKIPPING for assem < taxa
+[172 of 1225]	100 taxon, 500 assemblage, 500000 reads, repeat #2 - SKIPPING for assem < taxa
+[173 of 1225]	100 taxon, 500 assemblage, 500000 reads, repeat #3 - SKIPPING for assem < taxa
+[174 of 1225]	100 taxon, 500 assemblage, 500000 reads, repeat #4 - SKIPPING for assem < taxa
+[175 of 1225]	100 taxon, 500 assemblage, 500000 reads, repeat #5 - SKIPPING for assem < taxa
+[176 of 1225]	100 taxon, 1000 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[177 of 1225]	100 taxon, 1000 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[178 of 1225]	100 taxon, 1000 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[179 of 1225]	100 taxon, 1000 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[180 of 1225]	100 taxon, 1000 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[181 of 1225]	100 taxon, 1000 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[182 of 1225]	100 taxon, 1000 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[183 of 1225]	100 taxon, 1000 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[184 of 1225]	100 taxon, 1000 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[185 of 1225]	100 taxon, 1000 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[186 of 1225]	100 taxon, 1000 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[187 of 1225]	100 taxon, 1000 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[188 of 1225]	100 taxon, 1000 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[189 of 1225]	100 taxon, 1000 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[190 of 1225]	100 taxon, 1000 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[191 of 1225]	100 taxon, 1000 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[192 of 1225]	100 taxon, 1000 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[193 of 1225]	100 taxon, 1000 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[194 of 1225]	100 taxon, 1000 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[195 of 1225]	100 taxon, 1000 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[196 of 1225]	100 taxon, 1000 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[197 of 1225]	100 taxon, 1000 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[198 of 1225]	100 taxon, 1000 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[199 of 1225]	100 taxon, 1000 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[200 of 1225]	100 taxon, 1000 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[201 of 1225]	100 taxon, 1000 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[202 of 1225]	100 taxon, 1000 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[203 of 1225]	100 taxon, 1000 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[204 of 1225]	100 taxon, 1000 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[205 of 1225]	100 taxon, 1000 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[206 of 1225]	100 taxon, 1000 assemblage, 500000 reads, repeat #1 - SKIPPING for assem < taxa
+[207 of 1225]	100 taxon, 1000 assemblage, 500000 reads, repeat #2 - SKIPPING for assem < taxa
+[208 of 1225]	100 taxon, 1000 assemblage, 500000 reads, repeat #3 - SKIPPING for assem < taxa
+[209 of 1225]	100 taxon, 1000 assemblage, 500000 reads, repeat #4 - SKIPPING for assem < taxa
+[210 of 1225]	100 taxon, 1000 assemblage, 500000 reads, repeat #5 - SKIPPING for assem < taxa
+[211 of 1225]	100 taxon, 10000 assemblage, 10 reads, repeat #1 - SKIPPING for assem < taxa
+[212 of 1225]	100 taxon, 10000 assemblage, 10 reads, repeat #2 - SKIPPING for assem < taxa
+[213 of 1225]	100 taxon, 10000 assemblage, 10 reads, repeat #3 - SKIPPING for assem < taxa
+[214 of 1225]	100 taxon, 10000 assemblage, 10 reads, repeat #4 - SKIPPING for assem < taxa
+[215 of 1225]	100 taxon, 10000 assemblage, 10 reads, repeat #5 - SKIPPING for assem < taxa
+[216 of 1225]	100 taxon, 10000 assemblage, 100 reads, repeat #1 - SKIPPING for assem < taxa
+[217 of 1225]	100 taxon, 10000 assemblage, 100 reads, repeat #2 - SKIPPING for assem < taxa
+[218 of 1225]	100 taxon, 10000 assemblage, 100 reads, repeat #3 - SKIPPING for assem < taxa
+[219 of 1225]	100 taxon, 10000 assemblage, 100 reads, repeat #4 - SKIPPING for assem < taxa
+[220 of 1225]	100 taxon, 10000 assemblage, 100 reads, repeat #5 - SKIPPING for assem < taxa
+[221 of 1225]	100 taxon, 10000 assemblage, 1000 reads, repeat #1 - SKIPPING for assem < taxa
+[222 of 1225]	100 taxon, 10000 assemblage, 1000 reads, repeat #2 - SKIPPING for assem < taxa
+[223 of 1225]	100 taxon, 10000 assemblage, 1000 reads, repeat #3 - SKIPPING for assem < taxa
+[224 of 1225]	100 taxon, 10000 assemblage, 1000 reads, repeat #4 - SKIPPING for assem < taxa
+[225 of 1225]	100 taxon, 10000 assemblage, 1000 reads, repeat #5 - SKIPPING for assem < taxa
+[226 of 1225]	100 taxon, 10000 assemblage, 10000 reads, repeat #1 - SKIPPING for assem < taxa
+[227 of 1225]	100 taxon, 10000 assemblage, 10000 reads, repeat #2 - SKIPPING for assem < taxa
+[228 of 1225]	100 taxon, 10000 assemblage, 10000 reads, repeat #3 - SKIPPING for assem < taxa
+[229 of 1225]	100 taxon, 10000 assemblage, 10000 reads, repeat #4 - SKIPPING for assem < taxa
+[230 of 1225]	100 taxon, 10000 assemblage, 10000 reads, repeat #5 - SKIPPING for assem < taxa
+[231 of 1225]	100 taxon, 10000 assemblage, 100000 reads, repeat #1 - SKIPPING for assem < taxa
+[232 of 1225]	100 taxon, 10000 assemblage, 100000 reads, repeat #2 - SKIPPING for assem < taxa
+[233 of 1225]	100 taxon, 10000 assemblage, 100000 reads, repeat #3 - SKIPPING for assem < taxa
+[234 of 1225]	100 taxon, 10000 assemblage, 100000 reads, repeat #4 - SKIPPING for assem < taxa
+[235 of 1225]	100 taxon, 10000 assemblage, 100000 reads, repeat #5 - SKIPPING for assem < taxa
+[236 of 1225]	100 taxon, 10000 assemblage, 200000 reads, repeat #1 - SKIPPING for assem < taxa
+[237 of 1225]	100 taxon, 10000 assemblage, 200000 reads, repeat #2 - SKIPPING for assem < taxa
+[238 of 1225]	100 taxon, 10000 assemblage, 200000 reads, repeat #3 - SKIPPING for assem < taxa
+[239 of 1225]	100 taxon, 10000 assemblage, 200000 reads, repeat #4 - SKIPPING for assem < taxa
+[240 of 1225]	100 taxon, 10000 assemblage, 200000 reads, repeat #5 - SKIPPING for assem < taxa
+[241 of 1225]	100 taxon, 10000 assemblage, 500000 reads, repeat #1 - SKIPPING for assem < taxa
+[242 of 1225]	100 taxon, 10000 assemblage, 500000 reads, repeat #2 - SKIPPING for assem < taxa
+[243 of 1225]	100 taxon, 10000 assemblage, 500000 reads, repeat #3 - SKIPPING for assem < taxa
+[244 of 1225]	100 taxon, 10000 assemblage, 500000 reads, repeat #4 - SKIPPING for assem < taxa
+[245 of 1225]	100 taxon, 10000 assemblage, 500000 reads, repeat #5 - SKIPPING for assem < taxa
+[246 of 1225]	1000 taxon, 1 assemblage, 10 reads, repeat #1
+[247 of 1225]	1000 taxon, 1 assemblage, 10 reads, repeat #2
+[248 of 1225]	1000 taxon, 1 assemblage, 10 reads, repeat #3
+[249 of 1225]	1000 taxon, 1 assemblage, 10 reads, repeat #4
+[250 of 1225]	1000 taxon, 1 assemblage, 10 reads, repeat #5
+[251 of 1225]	1000 taxon, 1 assemblage, 100 reads, repeat #1
+[252 of 1225]	1000 taxon, 1 assemblage, 100 reads, repeat #2
+[253 of 1225]	1000 taxon, 1 assemblage, 100 reads, repeat #3
+[254 of 1225]	1000 taxon, 1 assemblage, 100 reads, repeat #4
+[255 of 1225]	1000 taxon, 1 assemblage, 100 reads, repeat #5
+[256 of 1225]	1000 taxon, 1 assemblage, 1000 reads, repeat #1
+[257 of 1225]	1000 taxon, 1 assemblage, 1000 reads, repeat #2
+[258 of 1225]	1000 taxon, 1 assemblage, 1000 reads, repeat #3
+[259 of 1225]	1000 taxon, 1 assemblage, 1000 reads, repeat #4
+[260 of 1225]	1000 taxon, 1 assemblage, 1000 reads, repeat #5
+[261 of 1225]	1000 taxon, 1 assemblage, 10000 reads, repeat #1
+[262 of 1225]	1000 taxon, 1 assemblage, 10000 reads, repeat #2
+[263 of 1225]	1000 taxon, 1 assemblage, 10000 reads, repeat #3
+[264 of 1225]	1000 taxon, 1 assemblage, 10000 reads, repeat #4
+[265 of 1225]	1000 taxon, 1 assemblage, 10000 reads, repeat #5
+[266 of 1225]	1000 taxon, 1 assemblage, 100000 reads, repeat #1
+[267 of 1225]	1000 taxon, 1 assemblage, 100000 reads, repeat #2
+[268 of 1225]	1000 taxon, 1 assemblage, 100000 reads, repeat #3
+[269 of 1225]	1000 taxon, 1 assemblage, 100000 reads, repeat #4
+[270 of 1225]	1000 taxon, 1 assemblage, 100000 reads, repeat #5
+[271 of 1225]	1000 taxon, 1 assemblage, 200000 reads, repeat #1
