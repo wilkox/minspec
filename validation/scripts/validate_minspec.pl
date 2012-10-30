@@ -125,7 +125,7 @@ until (keys(%assemblage) == $sizeOfAssemblage) {
 	next if exists $assemblage{$taxon};
 
 	#taxon relative abundance will follow a log curve
-	my $abundance = 1 / (log(keys(%assemblage)));
+	my $abundance = 1 / (log(keys(%assemblage) + 1));
 	$assemblage{$taxon} = $abundance;
 
 	print "\n$taxon is part of the assemblage, with a relative abundance of $abundance" if $verbose;
