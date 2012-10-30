@@ -124,8 +124,8 @@ until (keys(%assemblage) == $sizeOfAssemblage) {
 	my $taxon = @taxa[int(rand(@taxa))];
 	next if exists $assemblage{$taxon};
 
-	#taxon relative abundance will follow a log curve (roughly)
-	my $abundance = 1 / (2.71828183 ** (1 + keys(%assemblage) / 20));
+	#taxon relative abundance will follow a log curve
+	my $abundance = 1 / (log(keys(%assemblage)));
 	$assemblage{$taxon} = $abundance;
 
 	print "\n$taxon is part of the assemblage, with a relative abundance of $abundance" if $verbose;
