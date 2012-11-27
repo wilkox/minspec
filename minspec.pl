@@ -4,15 +4,13 @@
 # species assignments from a dataset of metagenomic reads, 
 # eliminating spurious species assignments.
 
-
 #based on the approach of, and borrows heavily from, MinPath:
 # Ye, Y. and Doak, T.G.. A parsimony approach to biological pathway 
 # reconstruction/inference for genomes and metagenomes. PLoS
 # Computational Biology 2009, vol 5 num 8
 #http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1000465
 
-#version 0.1
-#written by David Wilkins <david@wilkox.org>, <david.wilkins@unsw.edu.au>
+#written by David Wilkins <david@wilkox.org>
 #minspec lives at https://github.com/wilkox/minspec
 
 #this software is released into the public domain. To the extent 
@@ -58,16 +56,19 @@ exit;
 
 #SUBS
 
-sub doLP { #runs the lp
+sub doLP { #set up and run the lp
 
 	#read in blast output
 	die ("ERROR - could not open blast output file $blastoutputfile\n") unless open(BLAST, "<$blastoutputfile");
 
 	#set unique ids
-	$readuid = "AAAAAAA"; #seven characters to keep MPS formatting requirements happy
-	$specuid = "LLLLLL"; #six characters for the same reason
+  #the MPS file format has some very strict requirements -
+  # replacing read and OTU names with these IDs ensures these
+  # are never inadvertantly broken
+	$readuid = "AAAAAAA";
+	$specuid = "LLLLLL";
 
-	#produce the MPS file
+  #get read-species mappings from the BLAST output
 	while ($line = <BLAST>) {
 		chomp $line;
 		unless ($line =~ /^(\S+)\s+(\S+)/) {
@@ -77,7 +78,8 @@ sub doLP { #runs the lp
 		$read = $1;
 		$species = $2;
 
-		#because of the strict formatting of MPS files, each species and read must be assigned a unique id unless it has one already
+		#assign unique IDs to read and OTU if
+    # they don't already have them
 		if (!exists ($readuidof{$read})) {
 			$readuidtrans{$readuid} = $read;
 			$readuidof{$read} = $readuid;
@@ -87,8 +89,9 @@ sub doLP { #runs the lp
 			$specuidof{$species} = $specuid;
 			}
 
-		push(@{$allreads{$readuidof{$read}}}, $specuidof{$species}); #push the species assignment into the list of hits for that read
-		push(@{$allspecies{$specuidof{$species}}}, $readuidof{$read}); #push the read onto the list of reads for that species
+    #store read-species mappings
+		push(@{$allreads{$readuidof{$read}}}, $specuidof{$species});
+		push(@{$allspecies{$specuidof{$species}}}, $readuidof{$read});
 		++$readuid;
 		++$specuid;
 
@@ -101,33 +104,34 @@ sub doLP { #runs the lp
 ROWS
  N  NUM/;
 
-	#first, a simple list of all the reads
+	#first, list all the reads
 	foreach $read (keys(%allreads)) {
 		print MPS "\n G  $read";
 		}
 
-	#now, a list of species with their 'member' reads
+	#next, list all species with their read mappings
 	print MPS "\nCOLUMNS";
 	foreach $species (keys(%allspecies)) {
 		$speciesspacerlength = 10 - length($species);
 		print MPS "\n    $species" . " "x$speciesspacerlength . "NUM                1";
 		undef %preventduplicatereads;
 		foreach $read (@{$allspecies{$species}}) {
-			next if exists($preventduplicatereads{$read}); #to prevent duplicates in the mps
+			next if exists($preventduplicatereads{$read});
 			$readspacerlength = 19 - length($read);
 			print MPS "\n    $species" . " "x$speciesspacerlength . "$read" . " "x$readspacerlength . "1";
 			$preventduplicatereads{$read} = "";
 			}
 		}
 
-	#now, a list of all reads again
+	#list all reads (constraint function)
 	print MPS "\nRHS";
 	foreach $read (keys(%allreads)) {
 		$readspacerlength = 17 - length($read);
 		print MPS "\n    RHS1      $read" . " "x$readspacerlength . "1.0";
 		}
 
-	#now, a list of species
+	#list all species (not sure why this is needed by GLPSOL complains
+  # without it)
 	print MPS "\nBOUNDS";
 	foreach $species (keys(%allspecies)) {
 		print MPS "\n BV BND1      $species    ";
