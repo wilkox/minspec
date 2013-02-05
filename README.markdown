@@ -1,6 +1,6 @@
 #About 
 
-`minspec` is a simple bioinformatic tool for metagenomic studies. It identifies the most parsimonious set of species which explains the output of a blast search.
+`minspec` is a simple bioinformatic tool for metagenomic studies. It identifies the most parsimonious set of species that explains the output of a blast search.
 
 A common problem in metagenomics is handling reads which have high sequence identity to more than one species. Because a lot of genomic sequence is conserved between species, it's often unclear which species a read originated from. The normal solution is to split hits between all species which match above a certain identity, bit score or E-value threshold, but this is not satisfying for several reasons, not least that many of the identified species are probably not actually there.
 
