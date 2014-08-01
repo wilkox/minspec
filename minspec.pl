@@ -23,7 +23,7 @@
 
 $USAGE = q/USAGE:
 
-minspec -b <blast hittable>
+minspec -b <BLAST output, in tabular ('-m 8') format>
 
 OPTIONAL:
 
