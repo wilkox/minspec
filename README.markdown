@@ -1,3 +1,5 @@
+**This repository is archived and no longer maintained. It is kept as a record of the work.**
+
 #About 
 
 `minspec` is a simple bioinformatic tool for metagenomic studies. It identifies the most parsimonious set of species that explains the output of a blast search.
